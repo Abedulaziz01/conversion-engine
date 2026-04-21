@@ -1,0 +1,29 @@
+[
+  {
+    "run_id": "run_001",
+    "domain": "retail",
+    "num_tasks": 3,
+    "num_trials": 1,
+    "model": "openrouter/qwen/qwen3-32b",
+    "pass_at_1": 0.0,
+    "cost_usd": 0.0
+  },
+  {
+    "run_id": "run_002",
+    "domain": "retail",
+    "num_tasks": 3,
+    "num_trials": 1,
+    "model": "openrouter/qwen/qwen3-32b",
+    "pass_at_1": 0.0,
+    "cost_usd": 0.0
+  },
+  {
+    "run_id": "run_003",
+    "domain": "retail",
+    "num_tasks": 3,
+    "num_trials": 1,
+    "model": "openrouter/qwen/qwen3-32b",
+    "pass_at_1": 0.3333,
+    "cost_usd": null
+  }
+]
