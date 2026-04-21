@@ -1,0 +1,1201 @@
+company,date,layoffs,percentage,industry,country,source
+Robinhood_0,2020-05-24,10936,17,E-commerce,USA,https://layoffs.fyi
+FastAF_1,2020-07-10,4208,10,Healthcare,USA,https://layoffs.fyi
+Better.com_2,2023-07-19,8801,57,E-commerce,USA,https://layoffs.fyi
+Coinbase_3,2021-09-07,8821,44,E-commerce,USA,https://layoffs.fyi
+Netflix_4,2021-09-24,10828,9,Education,USA,https://layoffs.fyi
+MainStreet_5,2020-09-17,14875,42,Transportation,USA,https://layoffs.fyi
+Klarna_6,2022-03-13,6660,40,Social Media,USA,https://layoffs.fyi
+FastAF_7,2021-08-02,3949,41,E-commerce,USA,https://layoffs.fyi
+Bolt_8,2023-02-13,3735,7,Crypto,USA,https://layoffs.fyi
+Coinbase_9,2023-09-24,3703,8,Social Media,USA,https://layoffs.fyi
+Uber_10,2023-08-27,4143,15,Fintech,USA,https://layoffs.fyi
+Peloton_11,2023-05-27,10215,32,Crypto,USA,https://layoffs.fyi
+Uber_12,2021-01-14,1468,25,E-commerce,USA,https://layoffs.fyi
+Apple_13,2022-03-21,14867,54,Healthcare,USA,https://layoffs.fyi
+Shopify_14,2022-03-20,6329,27,Education,USA,https://layoffs.fyi
+Bolt_15,2021-06-03,9294,7,Transportation,USA,https://layoffs.fyi
+MainStreet_16,2022-11-17,2418,19,E-commerce,USA,https://layoffs.fyi
+Netflix_17,2022-07-28,11421,39,Transportation,USA,https://layoffs.fyi
+Zoom_18,2023-04-18,14610,27,Technology,USA,https://layoffs.fyi
+Robinhood_19,2022-02-28,9904,20,Technology,USA,https://layoffs.fyi
+Airbnb_20,2022-12-24,2034,51,SaaS,USA,https://layoffs.fyi
+Google_21,2023-06-24,6394,31,Technology,USA,https://layoffs.fyi
+Apple_22,2021-12-29,7077,15,Social Media,USA,https://layoffs.fyi
+Oracle_23,2022-02-02,14285,47,Social Media,USA,https://layoffs.fyi
+Uber_24,2021-11-18,6267,12,Technology,USA,https://layoffs.fyi
+Salesforce_25,2021-03-29,12947,50,E-commerce,USA,https://layoffs.fyi
+Shopify_26,2021-01-24,8560,58,SaaS,USA,https://layoffs.fyi
+Coinbase_27,2021-11-19,11687,15,Real Estate,USA,https://layoffs.fyi
+FastAF_28,2021-09-21,10228,28,Fintech,USA,https://layoffs.fyi
+Salesforce_29,2020-09-11,12180,20,Technology,USA,https://layoffs.fyi
+Klarna_30,2023-06-17,11985,23,Healthcare,USA,https://layoffs.fyi
+Shopify_31,2023-08-26,6118,37,Real Estate,USA,https://layoffs.fyi
+Apple_32,2022-02-10,1299,42,Crypto,USA,https://layoffs.fyi
+Shopify_33,2023-03-19,511,31,Transportation,USA,https://layoffs.fyi
+Microsoft_34,2021-12-25,7910,14,E-commerce,USA,https://layoffs.fyi
+Bolt_35,2020-05-15,14271,59,Crypto,USA,https://layoffs.fyi
+Salesforce_36,2022-02-04,3464,23,E-commerce,USA,https://layoffs.fyi
+FastAF_37,2021-05-14,259,51,Healthcare,USA,https://layoffs.fyi
+Google_38,2022-04-14,525,17,Social Media,USA,https://layoffs.fyi
+Apple_39,2022-08-31,6658,26,Technology,USA,https://layoffs.fyi
+Microsoft_40,2021-05-01,5201,6,Education,USA,https://layoffs.fyi
+Robinhood_41,2022-12-27,14155,27,Social Media,USA,https://layoffs.fyi
+Zoom_42,2022-12-14,14665,4,Technology,USA,https://layoffs.fyi
+Apple_43,2021-02-28,12234,26,Fintech,USA,https://layoffs.fyi
+Airbnb_44,2022-02-07,1964,42,Healthcare,USA,https://layoffs.fyi
+Uber_45,2021-11-19,11655,9,Education,USA,https://layoffs.fyi
+Coinbase_46,2020-04-13,7055,55,Education,USA,https://layoffs.fyi
+Coinbase_47,2020-09-06,9938,26,E-commerce,USA,https://layoffs.fyi
+Google_48,2023-03-02,11672,18,Transportation,USA,https://layoffs.fyi
+Bolt_49,2023-05-17,1580,35,Healthcare,USA,https://layoffs.fyi
+Coinbase_50,2020-04-15,12131,47,Education,USA,https://layoffs.fyi
+Microsoft_51,2023-05-07,13594,17,E-commerce,USA,https://layoffs.fyi
+Shopify_52,2022-11-05,3850,44,Real Estate,USA,https://layoffs.fyi
+Salesforce_53,2020-03-19,6016,11,Technology,USA,https://layoffs.fyi
+OpenSea_54,2021-10-29,8858,38,Crypto,USA,https://layoffs.fyi
+Apple_55,2021-05-21,2936,12,Transportation,USA,https://layoffs.fyi
+Salesforce_56,2023-04-02,4486,17,Education,USA,https://layoffs.fyi
+MainStreet_57,2022-06-11,13430,22,SaaS,USA,https://layoffs.fyi
+Klarna_58,2023-06-23,208,58,E-commerce,USA,https://layoffs.fyi
+Zoom_59,2022-12-15,7314,45,SaaS,USA,https://layoffs.fyi
+Salesforce_60,2020-09-26,660,58,SaaS,USA,https://layoffs.fyi
+Netflix_61,2020-10-08,5950,43,Real Estate,USA,https://layoffs.fyi
+Zoom_62,2022-02-18,4721,9,Fintech,USA,https://layoffs.fyi
+Peloton_63,2020-02-22,12216,7,Crypto,USA,https://layoffs.fyi
+OpenSea_64,2022-01-26,12102,58,SaaS,USA,https://layoffs.fyi
+Shopify_65,2023-08-03,13164,58,Healthcare,USA,https://layoffs.fyi
+OpenSea_66,2022-01-30,5419,32,Fintech,USA,https://layoffs.fyi
+FastAF_67,2021-01-27,1773,30,Education,USA,https://layoffs.fyi
+Bolt_68,2022-03-31,12904,59,Transportation,USA,https://layoffs.fyi
+Zoom_69,2021-03-31,2171,27,E-commerce,USA,https://layoffs.fyi
+Netflix_70,2020-11-18,1481,8,Real Estate,USA,https://layoffs.fyi
+Netflix_71,2022-10-10,11242,28,Healthcare,USA,https://layoffs.fyi
+Netflix_72,2022-02-01,7424,26,E-commerce,USA,https://layoffs.fyi
+Oracle_73,2020-11-07,5230,10,Education,USA,https://layoffs.fyi
+Bolt_74,2020-08-28,11256,26,SaaS,USA,https://layoffs.fyi
+FastAF_75,2023-01-29,12703,46,Transportation,USA,https://layoffs.fyi
+Bolt_76,2020-01-18,9965,41,Crypto,USA,https://layoffs.fyi
+Oracle_77,2021-05-03,11883,39,Education,USA,https://layoffs.fyi
+Cameo_78,2020-04-05,9426,51,Education,USA,https://layoffs.fyi
+Apple_79,2021-03-29,10186,29,Crypto,USA,https://layoffs.fyi
+Peloton_80,2021-11-23,3149,13,Education,USA,https://layoffs.fyi
+Bolt_81,2021-03-06,12454,57,Technology,USA,https://layoffs.fyi
+Coinbase_82,2023-02-25,2050,27,Crypto,USA,https://layoffs.fyi
+Coinbase_83,2020-11-07,2769,36,Healthcare,USA,https://layoffs.fyi
+Salesforce_84,2020-04-20,1065,22,Fintech,USA,https://layoffs.fyi
+Google_85,2023-04-30,2370,53,Transportation,USA,https://layoffs.fyi
+Bolt_86,2023-05-21,11454,5,Technology,USA,https://layoffs.fyi
+Netflix_87,2022-08-31,6708,6,Healthcare,USA,https://layoffs.fyi
+Klarna_88,2022-02-09,8301,32,Education,USA,https://layoffs.fyi
+Robinhood_89,2022-04-11,9441,51,SaaS,USA,https://layoffs.fyi
+Oracle_90,2020-04-09,10000,58,E-commerce,USA,https://layoffs.fyi
+Zoom_91,2022-05-15,13797,6,Healthcare,USA,https://layoffs.fyi
+Robinhood_92,2023-09-10,12974,57,Transportation,USA,https://layoffs.fyi
+Peloton_93,2021-09-27,11023,43,SaaS,USA,https://layoffs.fyi
+Microsoft_94,2021-05-12,8357,30,E-commerce,USA,https://layoffs.fyi
+Oracle_95,2023-10-19,9649,20,SaaS,USA,https://layoffs.fyi
+Apple_96,2023-03-11,11785,6,Social Media,USA,https://layoffs.fyi
+Uber_97,2021-01-07,5123,18,E-commerce,USA,https://layoffs.fyi
+Shopify_98,2021-08-09,11042,30,E-commerce,USA,https://layoffs.fyi
+FastAF_99,2020-05-13,9554,45,Crypto,USA,https://layoffs.fyi
+Coinbase_100,2021-03-23,12850,30,Education,USA,https://layoffs.fyi
+Coinbase_101,2023-02-14,4696,55,E-commerce,USA,https://layoffs.fyi
+FastAF_102,2023-06-14,5464,13,Fintech,USA,https://layoffs.fyi
+Better.com_103,2021-09-19,11934,5,Crypto,USA,https://layoffs.fyi
+Oracle_104,2023-06-24,6404,41,Fintech,USA,https://layoffs.fyi
+Peloton_105,2023-03-06,14213,49,Real Estate,USA,https://layoffs.fyi
+MainStreet_106,2022-08-07,13999,40,Fintech,USA,https://layoffs.fyi
+Bolt_107,2023-03-18,9521,45,Transportation,USA,https://layoffs.fyi
+Robinhood_108,2022-03-24,13409,20,Fintech,USA,https://layoffs.fyi
+MainStreet_109,2020-01-05,9462,58,E-commerce,USA,https://layoffs.fyi
+Coinbase_110,2021-07-05,1006,31,Healthcare,USA,https://layoffs.fyi
+Uber_111,2023-10-09,524,24,Technology,USA,https://layoffs.fyi
+Airbnb_112,2020-03-31,11932,30,Crypto,USA,https://layoffs.fyi
+Oracle_113,2023-01-05,12662,41,Crypto,USA,https://layoffs.fyi
+Uber_114,2020-10-22,14238,6,Fintech,USA,https://layoffs.fyi
+Microsoft_115,2020-03-01,5131,8,Real Estate,USA,https://layoffs.fyi
+OpenSea_116,2022-12-23,658,35,Fintech,USA,https://layoffs.fyi
+OpenSea_117,2022-07-21,12499,44,Education,USA,https://layoffs.fyi
+Cameo_118,2023-06-18,5586,11,Real Estate,USA,https://layoffs.fyi
+Shopify_119,2023-09-07,3728,30,SaaS,USA,https://layoffs.fyi
+Bolt_120,2023-02-19,10944,42,Healthcare,USA,https://layoffs.fyi
+Cameo_121,2022-03-23,2332,49,E-commerce,USA,https://layoffs.fyi
+Better.com_122,2022-10-01,11143,18,E-commerce,USA,https://layoffs.fyi
+Better.com_123,2021-09-19,3629,25,Technology,USA,https://layoffs.fyi
+Apple_124,2023-02-05,59,52,E-commerce,USA,https://layoffs.fyi
+Uber_125,2020-02-07,6688,54,Education,USA,https://layoffs.fyi
+OpenSea_126,2021-03-27,10423,11,Real Estate,USA,https://layoffs.fyi
+Robinhood_127,2021-12-23,14796,19,Social Media,USA,https://layoffs.fyi
+Microsoft_128,2022-01-12,12521,49,E-commerce,USA,https://layoffs.fyi
+Better.com_129,2022-11-15,11065,13,Social Media,USA,https://layoffs.fyi
+Klarna_130,2020-02-05,4320,21,Technology,USA,https://layoffs.fyi
+FastAF_131,2021-09-08,9858,36,SaaS,USA,https://layoffs.fyi
+Robinhood_132,2023-10-24,2241,22,Healthcare,USA,https://layoffs.fyi
+Oracle_133,2020-07-27,8764,44,Fintech,USA,https://layoffs.fyi
+Uber_134,2020-01-13,695,53,Transportation,USA,https://layoffs.fyi
+Apple_135,2023-09-04,1685,3,Transportation,USA,https://layoffs.fyi
+Cameo_136,2020-04-05,2867,46,Healthcare,USA,https://layoffs.fyi
+Cameo_137,2021-05-25,266,33,Social Media,USA,https://layoffs.fyi
+Coinbase_138,2023-08-15,6925,47,SaaS,USA,https://layoffs.fyi
+Klarna_139,2021-04-24,2872,22,SaaS,USA,https://layoffs.fyi
+Apple_140,2023-03-02,11609,59,Crypto,USA,https://layoffs.fyi
+Uber_141,2022-12-24,9168,20,Education,USA,https://layoffs.fyi
+Klarna_142,2021-06-24,14401,13,Real Estate,USA,https://layoffs.fyi
+Google_143,2021-03-22,7243,56,Social Media,USA,https://layoffs.fyi
+Microsoft_144,2023-03-06,8465,50,Education,USA,https://layoffs.fyi
+Cameo_145,2023-06-23,14564,54,Education,USA,https://layoffs.fyi
+Robinhood_146,2020-03-13,14903,19,SaaS,USA,https://layoffs.fyi
+Coinbase_147,2022-07-28,13010,33,Social Media,USA,https://layoffs.fyi
+Oracle_148,2022-11-18,14452,40,SaaS,USA,https://layoffs.fyi
+FastAF_149,2020-12-23,3090,13,Real Estate,USA,https://layoffs.fyi
+Uber_150,2021-11-09,6325,45,Real Estate,USA,https://layoffs.fyi
+Apple_151,2021-04-10,13225,40,Fintech,USA,https://layoffs.fyi
+Google_152,2023-01-05,13771,46,Crypto,USA,https://layoffs.fyi
+Oracle_153,2023-05-05,5882,14,Real Estate,USA,https://layoffs.fyi
+MainStreet_154,2020-07-04,12427,44,Transportation,USA,https://layoffs.fyi
+Uber_155,2021-05-11,1640,55,Healthcare,USA,https://layoffs.fyi
+Klarna_156,2023-04-27,7973,19,Crypto,USA,https://layoffs.fyi
+Apple_157,2022-01-18,11340,40,Real Estate,USA,https://layoffs.fyi
+Zoom_158,2020-08-14,2895,17,Crypto,USA,https://layoffs.fyi
+Peloton_159,2020-05-14,2792,9,SaaS,USA,https://layoffs.fyi
+Salesforce_160,2023-02-23,7942,49,Fintech,USA,https://layoffs.fyi
+Klarna_161,2022-04-07,5731,32,Transportation,USA,https://layoffs.fyi
+Airbnb_162,2020-12-21,13536,49,Real Estate,USA,https://layoffs.fyi
+MainStreet_163,2020-07-14,7183,53,E-commerce,USA,https://layoffs.fyi
+Salesforce_164,2021-06-09,5436,20,E-commerce,USA,https://layoffs.fyi
+Robinhood_165,2021-07-31,12175,30,Transportation,USA,https://layoffs.fyi
+Apple_166,2020-12-18,9967,57,SaaS,USA,https://layoffs.fyi
+Uber_167,2021-12-12,2698,41,Crypto,USA,https://layoffs.fyi
+MainStreet_168,2022-12-10,10613,38,Social Media,USA,https://layoffs.fyi
+Better.com_169,2022-01-14,10425,21,Healthcare,USA,https://layoffs.fyi
+FastAF_170,2022-05-22,14318,21,Crypto,USA,https://layoffs.fyi
+Coinbase_171,2021-06-21,9994,55,Crypto,USA,https://layoffs.fyi
+Robinhood_172,2021-02-13,9060,21,Crypto,USA,https://layoffs.fyi
+Microsoft_173,2020-03-22,1990,26,Healthcare,USA,https://layoffs.fyi
+Coinbase_174,2022-11-14,391,35,Technology,USA,https://layoffs.fyi
+Robinhood_175,2020-10-20,6222,14,Transportation,USA,https://layoffs.fyi
+Better.com_176,2021-05-31,13123,12,Social Media,USA,https://layoffs.fyi
+Zoom_177,2023-08-18,2129,46,Crypto,USA,https://layoffs.fyi
+OpenSea_178,2022-01-30,3832,6,Crypto,USA,https://layoffs.fyi
+Coinbase_179,2022-07-09,8115,42,Crypto,USA,https://layoffs.fyi
+Netflix_180,2023-10-07,1130,6,Technology,USA,https://layoffs.fyi
+Oracle_181,2023-02-12,13846,30,Healthcare,USA,https://layoffs.fyi
+Zoom_182,2020-11-25,7572,17,E-commerce,USA,https://layoffs.fyi
+MainStreet_183,2022-01-24,9296,52,Social Media,USA,https://layoffs.fyi
+FastAF_184,2022-02-13,327,40,Real Estate,USA,https://layoffs.fyi
+Airbnb_185,2023-06-30,594,41,Education,USA,https://layoffs.fyi
+Coinbase_186,2021-03-16,1636,46,Fintech,USA,https://layoffs.fyi
+Salesforce_187,2022-01-17,3082,33,Social Media,USA,https://layoffs.fyi
+Uber_188,2023-02-01,1409,22,Transportation,USA,https://layoffs.fyi
+MainStreet_189,2021-09-01,4196,55,Technology,USA,https://layoffs.fyi
+Shopify_190,2022-01-11,382,30,Healthcare,USA,https://layoffs.fyi
+Klarna_191,2020-03-27,7768,49,Fintech,USA,https://layoffs.fyi
+MainStreet_192,2020-04-30,10470,33,Crypto,USA,https://layoffs.fyi
+Cameo_193,2021-04-11,12906,47,Fintech,USA,https://layoffs.fyi
+OpenSea_194,2020-04-17,7599,53,Social Media,USA,https://layoffs.fyi
+Bolt_195,2022-08-09,7451,60,Social Media,USA,https://layoffs.fyi
+OpenSea_196,2021-08-18,3899,46,E-commerce,USA,https://layoffs.fyi
+Cameo_197,2021-04-05,2606,7,Healthcare,USA,https://layoffs.fyi
+Google_198,2023-01-07,3959,7,Real Estate,USA,https://layoffs.fyi
+Microsoft_199,2020-09-03,9997,28,E-commerce,USA,https://layoffs.fyi
+Salesforce_200,2023-03-20,12307,20,Transportation,USA,https://layoffs.fyi
+Uber_201,2021-09-25,1542,38,Fintech,USA,https://layoffs.fyi
+Shopify_202,2023-10-10,12416,48,E-commerce,USA,https://layoffs.fyi
+Shopify_203,2020-01-06,6451,47,Crypto,USA,https://layoffs.fyi
+Apple_204,2021-12-18,13315,19,Education,USA,https://layoffs.fyi
+Apple_205,2022-08-25,7427,46,Fintech,USA,https://layoffs.fyi
+Microsoft_206,2022-05-20,7870,43,Crypto,USA,https://layoffs.fyi
+Klarna_207,2022-02-24,6338,56,SaaS,USA,https://layoffs.fyi
+Oracle_208,2022-04-21,634,37,E-commerce,USA,https://layoffs.fyi
+Better.com_209,2022-06-23,1616,7,Healthcare,USA,https://layoffs.fyi
+Uber_210,2023-01-13,7010,34,Fintech,USA,https://layoffs.fyi
+MainStreet_211,2020-10-07,6059,31,E-commerce,USA,https://layoffs.fyi
+FastAF_212,2020-03-26,9446,27,Fintech,USA,https://layoffs.fyi
+Uber_213,2023-02-07,7437,3,SaaS,USA,https://layoffs.fyi
+Oracle_214,2022-10-01,12123,59,Fintech,USA,https://layoffs.fyi
+Shopify_215,2023-02-28,10084,41,Fintech,USA,https://layoffs.fyi
+Microsoft_216,2020-11-03,11907,39,Fintech,USA,https://layoffs.fyi
+Peloton_217,2022-09-16,6517,13,E-commerce,USA,https://layoffs.fyi
+Netflix_218,2023-08-12,3678,31,Fintech,USA,https://layoffs.fyi
+Shopify_219,2020-07-11,2582,48,Crypto,USA,https://layoffs.fyi
+MainStreet_220,2023-10-20,14088,34,Real Estate,USA,https://layoffs.fyi
+FastAF_221,2021-05-28,14716,38,Social Media,USA,https://layoffs.fyi
+Shopify_222,2023-07-11,9119,22,Real Estate,USA,https://layoffs.fyi
+Coinbase_223,2021-12-30,10528,53,Healthcare,USA,https://layoffs.fyi
+Netflix_224,2021-07-12,13814,12,Fintech,USA,https://layoffs.fyi
+FastAF_225,2021-11-28,14678,48,Crypto,USA,https://layoffs.fyi
+Cameo_226,2020-07-22,6672,60,SaaS,USA,https://layoffs.fyi
+FastAF_227,2022-04-29,7840,11,Fintech,USA,https://layoffs.fyi
+Coinbase_228,2020-02-12,8789,14,Fintech,USA,https://layoffs.fyi
+Oracle_229,2021-01-30,8217,7,SaaS,USA,https://layoffs.fyi
+Apple_230,2020-03-28,13088,25,SaaS,USA,https://layoffs.fyi
+Shopify_231,2021-12-02,3833,21,Transportation,USA,https://layoffs.fyi
+Microsoft_232,2023-03-08,7878,57,Fintech,USA,https://layoffs.fyi
+Robinhood_233,2023-04-11,9353,39,Social Media,USA,https://layoffs.fyi
+Airbnb_234,2020-03-11,5280,29,SaaS,USA,https://layoffs.fyi
+Uber_235,2020-07-21,11473,48,Social Media,USA,https://layoffs.fyi
+Netflix_236,2021-09-25,10737,21,Real Estate,USA,https://layoffs.fyi
+Oracle_237,2022-09-25,6519,41,Education,USA,https://layoffs.fyi
+Oracle_238,2020-03-15,14688,11,Education,USA,https://layoffs.fyi
+Klarna_239,2023-09-17,9453,51,Social Media,USA,https://layoffs.fyi
+Apple_240,2022-05-23,7160,53,Real Estate,USA,https://layoffs.fyi
+Airbnb_241,2020-04-27,124,50,SaaS,USA,https://layoffs.fyi
+Microsoft_242,2021-10-21,8678,57,E-commerce,USA,https://layoffs.fyi
+Microsoft_243,2022-03-06,14651,5,Education,USA,https://layoffs.fyi
+Salesforce_244,2023-09-09,13363,7,Crypto,USA,https://layoffs.fyi
+Uber_245,2021-04-15,8156,56,Healthcare,USA,https://layoffs.fyi
+Airbnb_246,2020-06-30,12217,44,Social Media,USA,https://layoffs.fyi
+Shopify_247,2020-10-27,2774,5,Crypto,USA,https://layoffs.fyi
+FastAF_248,2021-01-07,14675,42,Healthcare,USA,https://layoffs.fyi
+Microsoft_249,2021-08-29,14729,4,Healthcare,USA,https://layoffs.fyi
+Shopify_250,2022-05-14,6781,48,Social Media,USA,https://layoffs.fyi
+Klarna_251,2023-02-02,13342,58,Crypto,USA,https://layoffs.fyi
+Google_252,2022-04-10,7165,50,Social Media,USA,https://layoffs.fyi
+Airbnb_253,2020-01-13,9332,29,Crypto,USA,https://layoffs.fyi
+Google_254,2022-02-28,7008,39,Technology,USA,https://layoffs.fyi
+Apple_255,2022-12-18,599,3,Social Media,USA,https://layoffs.fyi
+Apple_256,2021-07-29,5125,3,Technology,USA,https://layoffs.fyi
+Better.com_257,2021-02-22,14820,15,Technology,USA,https://layoffs.fyi
+Coinbase_258,2021-08-30,5288,60,Crypto,USA,https://layoffs.fyi
+Zoom_259,2021-07-25,9929,20,Fintech,USA,https://layoffs.fyi
+Oracle_260,2023-05-09,5717,19,Social Media,USA,https://layoffs.fyi
+MainStreet_261,2023-10-08,6466,23,Social Media,USA,https://layoffs.fyi
+Oracle_262,2020-09-26,4273,36,SaaS,USA,https://layoffs.fyi
+Klarna_263,2020-10-20,5766,20,Education,USA,https://layoffs.fyi
+Uber_264,2021-08-23,14305,28,Social Media,USA,https://layoffs.fyi
+MainStreet_265,2021-10-06,5690,34,Education,USA,https://layoffs.fyi
+Uber_266,2021-10-07,7654,40,Crypto,USA,https://layoffs.fyi
+Zoom_267,2021-01-12,1784,43,E-commerce,USA,https://layoffs.fyi
+Shopify_268,2021-08-03,9847,37,Social Media,USA,https://layoffs.fyi
+Better.com_269,2020-12-23,603,31,Transportation,USA,https://layoffs.fyi
+Uber_270,2023-05-15,3841,24,Healthcare,USA,https://layoffs.fyi
+Airbnb_271,2020-11-04,5436,41,Healthcare,USA,https://layoffs.fyi
+Salesforce_272,2021-02-03,9120,43,Technology,USA,https://layoffs.fyi
+FastAF_273,2021-11-06,4779,57,Fintech,USA,https://layoffs.fyi
+Klarna_274,2020-03-31,9121,15,Social Media,USA,https://layoffs.fyi
+Cameo_275,2020-08-27,1249,22,Social Media,USA,https://layoffs.fyi
+Salesforce_276,2020-11-19,3065,40,SaaS,USA,https://layoffs.fyi
+Netflix_277,2020-12-29,8802,14,Education,USA,https://layoffs.fyi
+Bolt_278,2020-06-03,3287,39,Transportation,USA,https://layoffs.fyi
+Uber_279,2021-01-03,14602,31,SaaS,USA,https://layoffs.fyi
+Bolt_280,2020-06-07,173,50,Education,USA,https://layoffs.fyi
+FastAF_281,2023-09-20,1577,57,Social Media,USA,https://layoffs.fyi
+Peloton_282,2022-11-22,14173,15,E-commerce,USA,https://layoffs.fyi
+Oracle_283,2022-11-24,8175,29,Fintech,USA,https://layoffs.fyi
+Shopify_284,2021-12-31,3311,46,Healthcare,USA,https://layoffs.fyi
+MainStreet_285,2021-03-06,9932,32,Crypto,USA,https://layoffs.fyi
+Better.com_286,2023-09-02,7957,12,Social Media,USA,https://layoffs.fyi
+Zoom_287,2020-05-21,7178,46,Real Estate,USA,https://layoffs.fyi
+Airbnb_288,2022-02-03,800,54,Fintech,USA,https://layoffs.fyi
+Oracle_289,2020-04-12,10770,31,Social Media,USA,https://layoffs.fyi
+Shopify_290,2023-08-28,1952,13,Crypto,USA,https://layoffs.fyi
+Oracle_291,2020-07-05,8852,34,Real Estate,USA,https://layoffs.fyi
+Better.com_292,2021-02-20,5131,23,Social Media,USA,https://layoffs.fyi
+Google_293,2020-09-01,7847,9,Real Estate,USA,https://layoffs.fyi
+Google_294,2021-06-05,2858,16,Real Estate,USA,https://layoffs.fyi
+Shopify_295,2021-10-01,13283,8,Healthcare,USA,https://layoffs.fyi
+Microsoft_296,2023-02-24,14430,29,Real Estate,USA,https://layoffs.fyi
+Oracle_297,2020-09-30,4532,20,Technology,USA,https://layoffs.fyi
+Coinbase_298,2021-09-07,8270,28,E-commerce,USA,https://layoffs.fyi
+Airbnb_299,2023-06-29,6070,42,Real Estate,USA,https://layoffs.fyi
+Coinbase_300,2021-05-08,2641,45,Technology,USA,https://layoffs.fyi
+FastAF_301,2022-09-12,14138,17,E-commerce,USA,https://layoffs.fyi
+Apple_302,2020-03-13,10756,13,Real Estate,USA,https://layoffs.fyi
+Peloton_303,2020-06-04,4143,5,SaaS,USA,https://layoffs.fyi
+Salesforce_304,2023-06-12,10973,4,Real Estate,USA,https://layoffs.fyi
+Oracle_305,2022-02-26,11468,51,Technology,USA,https://layoffs.fyi
+Uber_306,2023-08-24,7513,39,SaaS,USA,https://layoffs.fyi
+Netflix_307,2021-11-13,2845,52,Education,USA,https://layoffs.fyi
+Coinbase_308,2022-10-25,5707,34,SaaS,USA,https://layoffs.fyi
+OpenSea_309,2020-09-30,2560,5,E-commerce,USA,https://layoffs.fyi
+Apple_310,2022-09-05,1653,26,E-commerce,USA,https://layoffs.fyi
+MainStreet_311,2022-10-20,12905,54,Education,USA,https://layoffs.fyi
+Peloton_312,2020-02-11,5588,9,E-commerce,USA,https://layoffs.fyi
+Airbnb_313,2023-06-09,8179,48,E-commerce,USA,https://layoffs.fyi
+Salesforce_314,2022-09-26,14719,42,Transportation,USA,https://layoffs.fyi
+Shopify_315,2020-12-02,3454,35,Crypto,USA,https://layoffs.fyi
+Bolt_316,2023-06-12,13122,48,Technology,USA,https://layoffs.fyi
+FastAF_317,2020-03-03,9551,46,Crypto,USA,https://layoffs.fyi
+Cameo_318,2022-04-28,4991,48,Fintech,USA,https://layoffs.fyi
+Uber_319,2022-03-07,11553,5,SaaS,USA,https://layoffs.fyi
+Apple_320,2022-02-24,11373,19,Technology,USA,https://layoffs.fyi
+Peloton_321,2022-11-26,5979,53,Education,USA,https://layoffs.fyi
+Zoom_322,2020-01-16,7330,56,Crypto,USA,https://layoffs.fyi
+Airbnb_323,2022-07-28,4695,35,Crypto,USA,https://layoffs.fyi
+Microsoft_324,2020-07-11,13076,58,Education,USA,https://layoffs.fyi
+Better.com_325,2020-06-12,8344,40,Social Media,USA,https://layoffs.fyi
+FastAF_326,2020-12-17,14639,48,Social Media,USA,https://layoffs.fyi
+Klarna_327,2021-07-22,2763,9,Real Estate,USA,https://layoffs.fyi
+Microsoft_328,2021-12-07,14207,50,Crypto,USA,https://layoffs.fyi
+Robinhood_329,2022-12-14,5992,26,Technology,USA,https://layoffs.fyi
+OpenSea_330,2020-02-18,14665,9,Real Estate,USA,https://layoffs.fyi
+Coinbase_331,2020-09-17,13785,54,Healthcare,USA,https://layoffs.fyi
+FastAF_332,2022-10-04,6420,14,Crypto,USA,https://layoffs.fyi
+Peloton_333,2022-11-14,11154,38,SaaS,USA,https://layoffs.fyi
+Netflix_334,2022-05-16,9293,50,Education,USA,https://layoffs.fyi
+Shopify_335,2023-02-20,2189,51,Fintech,USA,https://layoffs.fyi
+Salesforce_336,2021-02-18,5489,18,Transportation,USA,https://layoffs.fyi
+MainStreet_337,2021-02-15,11654,49,Healthcare,USA,https://layoffs.fyi
+Apple_338,2022-10-30,10483,4,E-commerce,USA,https://layoffs.fyi
+Airbnb_339,2021-11-08,3997,39,Social Media,USA,https://layoffs.fyi
+Salesforce_340,2020-02-07,10463,9,SaaS,USA,https://layoffs.fyi
+FastAF_341,2021-04-03,4237,15,E-commerce,USA,https://layoffs.fyi
+Better.com_342,2021-04-23,8720,41,Crypto,USA,https://layoffs.fyi
+Better.com_343,2021-12-16,3232,55,E-commerce,USA,https://layoffs.fyi
+MainStreet_344,2023-03-11,621,31,Fintech,USA,https://layoffs.fyi
+Bolt_345,2021-08-05,5160,9,Fintech,USA,https://layoffs.fyi
+Google_346,2020-02-14,502,46,SaaS,USA,https://layoffs.fyi
+OpenSea_347,2021-04-08,11403,16,E-commerce,USA,https://layoffs.fyi
+MainStreet_348,2022-04-11,12760,55,Technology,USA,https://layoffs.fyi
+Shopify_349,2023-10-04,10278,23,E-commerce,USA,https://layoffs.fyi
+Better.com_350,2023-06-01,5030,6,E-commerce,USA,https://layoffs.fyi
+Microsoft_351,2021-07-22,7430,4,Social Media,USA,https://layoffs.fyi
+FastAF_352,2021-02-15,2830,4,Healthcare,USA,https://layoffs.fyi
+Netflix_353,2023-02-24,14152,16,Healthcare,USA,https://layoffs.fyi
+Uber_354,2023-05-20,532,49,Real Estate,USA,https://layoffs.fyi
+MainStreet_355,2022-07-03,8296,14,Fintech,USA,https://layoffs.fyi
+Google_356,2020-09-05,2711,14,Crypto,USA,https://layoffs.fyi
+Apple_357,2022-06-07,2238,47,Real Estate,USA,https://layoffs.fyi
+Cameo_358,2023-05-16,1168,54,E-commerce,USA,https://layoffs.fyi
+Zoom_359,2021-05-20,10472,3,Social Media,USA,https://layoffs.fyi
+Shopify_360,2021-12-03,950,42,Healthcare,USA,https://layoffs.fyi
+Peloton_361,2022-09-15,14679,24,E-commerce,USA,https://layoffs.fyi
+Airbnb_362,2021-05-24,8300,24,Crypto,USA,https://layoffs.fyi
+Shopify_363,2023-06-16,10119,30,Real Estate,USA,https://layoffs.fyi
+Salesforce_364,2021-11-21,2071,55,Healthcare,USA,https://layoffs.fyi
+Bolt_365,2023-07-10,6872,7,Technology,USA,https://layoffs.fyi
+Microsoft_366,2022-12-08,6062,52,SaaS,USA,https://layoffs.fyi
+Zoom_367,2023-10-02,12587,37,Real Estate,USA,https://layoffs.fyi
+MainStreet_368,2023-09-30,6740,43,Transportation,USA,https://layoffs.fyi
+OpenSea_369,2022-08-10,4749,55,Technology,USA,https://layoffs.fyi
+OpenSea_370,2021-05-11,6266,50,Transportation,USA,https://layoffs.fyi
+Peloton_371,2021-05-13,6954,39,Crypto,USA,https://layoffs.fyi
+Zoom_372,2020-02-18,3493,6,Social Media,USA,https://layoffs.fyi
+Oracle_373,2020-10-30,4681,52,SaaS,USA,https://layoffs.fyi
+Google_374,2022-05-05,331,12,Education,USA,https://layoffs.fyi
+OpenSea_375,2022-06-05,4012,31,SaaS,USA,https://layoffs.fyi
+FastAF_376,2021-05-19,13749,33,Education,USA,https://layoffs.fyi
+MainStreet_377,2022-03-11,251,30,Technology,USA,https://layoffs.fyi
+MainStreet_378,2022-10-23,2922,27,Education,USA,https://layoffs.fyi
+Microsoft_379,2023-10-15,14133,51,E-commerce,USA,https://layoffs.fyi
+Netflix_380,2020-11-02,3799,34,Fintech,USA,https://layoffs.fyi
+Uber_381,2023-02-03,2002,14,Healthcare,USA,https://layoffs.fyi
+Microsoft_382,2022-06-11,11681,32,Healthcare,USA,https://layoffs.fyi
+Coinbase_383,2020-09-10,1920,33,SaaS,USA,https://layoffs.fyi
+Google_384,2020-12-04,4002,23,Technology,USA,https://layoffs.fyi
+Cameo_385,2023-07-26,8147,4,Healthcare,USA,https://layoffs.fyi
+Better.com_386,2020-03-11,8845,48,Fintech,USA,https://layoffs.fyi
+Oracle_387,2021-05-17,8186,58,Real Estate,USA,https://layoffs.fyi
+Airbnb_388,2023-07-27,11864,30,Healthcare,USA,https://layoffs.fyi
+Shopify_389,2022-09-05,9374,52,Crypto,USA,https://layoffs.fyi
+MainStreet_390,2021-09-19,3504,35,SaaS,USA,https://layoffs.fyi
+Peloton_391,2023-04-11,951,46,Education,USA,https://layoffs.fyi
+Google_392,2021-01-03,13264,54,Social Media,USA,https://layoffs.fyi
+Klarna_393,2020-02-05,1448,12,Healthcare,USA,https://layoffs.fyi
+Shopify_394,2020-12-05,5446,19,Technology,USA,https://layoffs.fyi
+Microsoft_395,2021-06-10,3286,40,Technology,USA,https://layoffs.fyi
+MainStreet_396,2023-03-16,8347,9,Crypto,USA,https://layoffs.fyi
+Microsoft_397,2022-10-22,12537,37,Crypto,USA,https://layoffs.fyi
+Shopify_398,2021-06-16,10198,21,Technology,USA,https://layoffs.fyi
+Uber_399,2023-01-07,892,32,Social Media,USA,https://layoffs.fyi
+Netflix_400,2021-07-28,6574,34,Fintech,USA,https://layoffs.fyi
+Coinbase_401,2022-08-08,1396,23,SaaS,USA,https://layoffs.fyi
+Shopify_402,2021-03-25,4808,14,Fintech,USA,https://layoffs.fyi
+Robinhood_403,2020-12-30,9761,14,Education,USA,https://layoffs.fyi
+Coinbase_404,2020-11-12,1794,39,SaaS,USA,https://layoffs.fyi
+FastAF_405,2023-05-27,13782,50,Crypto,USA,https://layoffs.fyi
+OpenSea_406,2020-07-01,12822,24,Technology,USA,https://layoffs.fyi
+Microsoft_407,2020-02-14,7206,59,Transportation,USA,https://layoffs.fyi
+Airbnb_408,2023-08-10,14473,48,Education,USA,https://layoffs.fyi
+Coinbase_409,2021-03-20,8682,57,Social Media,USA,https://layoffs.fyi
+Netflix_410,2023-02-07,3457,40,Fintech,USA,https://layoffs.fyi
+Coinbase_411,2020-03-23,2423,19,Social Media,USA,https://layoffs.fyi
+Cameo_412,2021-10-09,6320,47,Social Media,USA,https://layoffs.fyi
+Netflix_413,2022-11-10,11844,27,Social Media,USA,https://layoffs.fyi
+Zoom_414,2021-10-23,12826,41,Transportation,USA,https://layoffs.fyi
+Salesforce_415,2020-12-27,14450,5,Technology,USA,https://layoffs.fyi
+Bolt_416,2022-12-05,8431,10,Real Estate,USA,https://layoffs.fyi
+FastAF_417,2023-03-08,14653,29,SaaS,USA,https://layoffs.fyi
+Cameo_418,2021-06-08,11273,38,Crypto,USA,https://layoffs.fyi
+Coinbase_419,2023-04-21,6551,12,Healthcare,USA,https://layoffs.fyi
+FastAF_420,2022-11-24,7597,15,Technology,USA,https://layoffs.fyi
+Microsoft_421,2021-04-15,1188,26,Healthcare,USA,https://layoffs.fyi
+Microsoft_422,2020-07-08,13370,33,Fintech,USA,https://layoffs.fyi
+Oracle_423,2023-10-22,2776,44,Education,USA,https://layoffs.fyi
+Bolt_424,2020-09-27,9474,60,SaaS,USA,https://layoffs.fyi
+Peloton_425,2021-01-08,10584,17,Social Media,USA,https://layoffs.fyi
+Oracle_426,2022-04-06,14523,40,Transportation,USA,https://layoffs.fyi
+Bolt_427,2023-02-07,5989,26,Real Estate,USA,https://layoffs.fyi
+Salesforce_428,2023-09-06,8799,40,Fintech,USA,https://layoffs.fyi
+Peloton_429,2020-12-03,14419,6,E-commerce,USA,https://layoffs.fyi
+Netflix_430,2021-11-20,10629,39,Crypto,USA,https://layoffs.fyi
+Shopify_431,2023-08-11,14467,18,SaaS,USA,https://layoffs.fyi
+Salesforce_432,2020-09-25,7971,40,Fintech,USA,https://layoffs.fyi
+Cameo_433,2022-07-05,10903,24,Fintech,USA,https://layoffs.fyi
+OpenSea_434,2023-04-30,3988,36,SaaS,USA,https://layoffs.fyi
+Google_435,2022-01-27,5740,53,Real Estate,USA,https://layoffs.fyi
+Salesforce_436,2021-06-28,14523,21,Social Media,USA,https://layoffs.fyi
+Microsoft_437,2022-11-12,12619,9,SaaS,USA,https://layoffs.fyi
+Cameo_438,2023-02-28,7558,38,Crypto,USA,https://layoffs.fyi
+Salesforce_439,2021-10-17,12978,41,Social Media,USA,https://layoffs.fyi
+OpenSea_440,2020-11-21,7318,11,Crypto,USA,https://layoffs.fyi
+Klarna_441,2022-02-17,6770,22,Transportation,USA,https://layoffs.fyi
+Salesforce_442,2021-03-04,11277,39,E-commerce,USA,https://layoffs.fyi
+Airbnb_443,2021-03-08,4162,10,Education,USA,https://layoffs.fyi
+Uber_444,2021-01-22,13069,50,Technology,USA,https://layoffs.fyi
+Airbnb_445,2023-06-12,4268,44,Fintech,USA,https://layoffs.fyi
+Netflix_446,2020-06-02,6201,19,Crypto,USA,https://layoffs.fyi
+Cameo_447,2023-04-08,11609,56,SaaS,USA,https://layoffs.fyi
+Coinbase_448,2021-09-25,1971,49,Technology,USA,https://layoffs.fyi
+Netflix_449,2021-10-07,2094,28,Social Media,USA,https://layoffs.fyi
+Klarna_450,2022-03-19,10695,21,Education,USA,https://layoffs.fyi
+MainStreet_451,2022-03-12,1581,12,Technology,USA,https://layoffs.fyi
+Netflix_452,2020-08-02,9614,60,E-commerce,USA,https://layoffs.fyi
+Airbnb_453,2022-04-05,8944,22,SaaS,USA,https://layoffs.fyi
+Microsoft_454,2021-07-27,1978,12,E-commerce,USA,https://layoffs.fyi
+Netflix_455,2021-06-05,11579,55,Fintech,USA,https://layoffs.fyi
+MainStreet_456,2022-04-16,7043,51,Real Estate,USA,https://layoffs.fyi
+Peloton_457,2021-01-05,9959,47,Fintech,USA,https://layoffs.fyi
+Bolt_458,2022-11-07,13320,9,Social Media,USA,https://layoffs.fyi
+Zoom_459,2020-07-24,9381,18,Real Estate,USA,https://layoffs.fyi
+Cameo_460,2023-01-03,91,3,Social Media,USA,https://layoffs.fyi
+Robinhood_461,2021-09-26,9301,51,Fintech,USA,https://layoffs.fyi
+Coinbase_462,2021-02-26,2872,19,Real Estate,USA,https://layoffs.fyi
+Salesforce_463,2022-02-04,2804,46,E-commerce,USA,https://layoffs.fyi
+Better.com_464,2020-01-24,7894,14,Fintech,USA,https://layoffs.fyi
+Oracle_465,2020-02-21,10874,17,Technology,USA,https://layoffs.fyi
+Robinhood_466,2023-01-16,10317,37,Education,USA,https://layoffs.fyi
+Coinbase_467,2022-08-04,6896,27,Crypto,USA,https://layoffs.fyi
+Netflix_468,2020-05-03,9244,59,Social Media,USA,https://layoffs.fyi
+Bolt_469,2021-10-28,3234,29,Crypto,USA,https://layoffs.fyi
+OpenSea_470,2020-04-28,4224,55,Social Media,USA,https://layoffs.fyi
+Salesforce_471,2020-10-28,8713,18,Real Estate,USA,https://layoffs.fyi
+Bolt_472,2021-05-13,7238,32,Transportation,USA,https://layoffs.fyi
+Uber_473,2021-08-24,8710,23,E-commerce,USA,https://layoffs.fyi
+Cameo_474,2020-10-25,3122,30,E-commerce,USA,https://layoffs.fyi
+Shopify_475,2020-01-31,9400,44,E-commerce,USA,https://layoffs.fyi
+Apple_476,2023-05-01,11718,33,Transportation,USA,https://layoffs.fyi
+Zoom_477,2020-07-17,11742,29,Real Estate,USA,https://layoffs.fyi
+Netflix_478,2023-08-10,7923,19,E-commerce,USA,https://layoffs.fyi
+Peloton_479,2021-08-02,7396,5,Education,USA,https://layoffs.fyi
+Zoom_480,2020-07-31,13544,31,E-commerce,USA,https://layoffs.fyi
+Salesforce_481,2020-06-05,5245,14,Social Media,USA,https://layoffs.fyi
+FastAF_482,2023-03-19,9643,39,Education,USA,https://layoffs.fyi
+MainStreet_483,2021-11-24,14084,5,Crypto,USA,https://layoffs.fyi
+Shopify_484,2023-09-15,14009,39,Transportation,USA,https://layoffs.fyi
+FastAF_485,2020-03-31,14276,5,Education,USA,https://layoffs.fyi
+Robinhood_486,2022-11-08,8436,42,Education,USA,https://layoffs.fyi
+Peloton_487,2023-10-10,11173,27,Real Estate,USA,https://layoffs.fyi
+Salesforce_488,2022-07-27,6960,24,Education,USA,https://layoffs.fyi
+Peloton_489,2022-11-04,3961,17,Transportation,USA,https://layoffs.fyi
+Uber_490,2022-05-22,7212,32,E-commerce,USA,https://layoffs.fyi
+Apple_491,2021-11-15,7802,53,E-commerce,USA,https://layoffs.fyi
+Uber_492,2020-08-22,13889,35,SaaS,USA,https://layoffs.fyi
+Microsoft_493,2021-09-20,11910,40,Education,USA,https://layoffs.fyi
+Google_494,2021-10-04,10789,23,Transportation,USA,https://layoffs.fyi
+Uber_495,2021-03-09,13350,22,E-commerce,USA,https://layoffs.fyi
+Robinhood_496,2021-04-14,564,21,E-commerce,USA,https://layoffs.fyi
+Airbnb_497,2021-04-25,1263,27,Education,USA,https://layoffs.fyi
+MainStreet_498,2021-11-20,3509,42,Real Estate,USA,https://layoffs.fyi
+Klarna_499,2022-03-21,141,8,Crypto,USA,https://layoffs.fyi
+OpenSea_500,2020-10-30,10106,47,Real Estate,USA,https://layoffs.fyi
+Salesforce_501,2020-07-29,13582,25,E-commerce,USA,https://layoffs.fyi
+Airbnb_502,2021-05-04,4289,11,Transportation,USA,https://layoffs.fyi
+Cameo_503,2022-01-16,4370,58,Transportation,USA,https://layoffs.fyi
+FastAF_504,2022-02-06,6532,48,E-commerce,USA,https://layoffs.fyi
+Airbnb_505,2021-02-11,11756,54,Education,USA,https://layoffs.fyi
+FastAF_506,2022-12-15,13655,40,Education,USA,https://layoffs.fyi
+Coinbase_507,2023-05-26,8994,43,E-commerce,USA,https://layoffs.fyi
+Zoom_508,2020-11-01,7882,14,Real Estate,USA,https://layoffs.fyi
+Robinhood_509,2023-06-23,5587,13,Technology,USA,https://layoffs.fyi
+Shopify_510,2023-03-10,274,54,Transportation,USA,https://layoffs.fyi
+Oracle_511,2022-11-01,6855,48,Real Estate,USA,https://layoffs.fyi
+Bolt_512,2021-04-01,10592,8,Technology,USA,https://layoffs.fyi
+Uber_513,2021-01-14,5753,20,Real Estate,USA,https://layoffs.fyi
+Oracle_514,2020-09-09,11834,51,Healthcare,USA,https://layoffs.fyi
+Coinbase_515,2022-12-29,10181,27,E-commerce,USA,https://layoffs.fyi
+Coinbase_516,2023-09-12,2060,27,Education,USA,https://layoffs.fyi
+MainStreet_517,2021-09-20,11687,43,Healthcare,USA,https://layoffs.fyi
+FastAF_518,2022-12-24,9754,56,E-commerce,USA,https://layoffs.fyi
+Salesforce_519,2021-07-16,14352,56,Fintech,USA,https://layoffs.fyi
+Microsoft_520,2021-09-09,3157,46,Transportation,USA,https://layoffs.fyi
+Zoom_521,2022-03-12,3043,6,Transportation,USA,https://layoffs.fyi
+Oracle_522,2020-10-06,1236,4,Social Media,USA,https://layoffs.fyi
+Coinbase_523,2021-02-15,1625,57,Social Media,USA,https://layoffs.fyi
+Cameo_524,2021-07-03,82,8,SaaS,USA,https://layoffs.fyi
+Cameo_525,2023-02-04,10998,42,Healthcare,USA,https://layoffs.fyi
+Netflix_526,2023-08-11,14528,30,SaaS,USA,https://layoffs.fyi
+OpenSea_527,2021-09-14,10409,17,Crypto,USA,https://layoffs.fyi
+Zoom_528,2021-04-05,4017,33,Education,USA,https://layoffs.fyi
+Klarna_529,2023-02-10,4444,35,Transportation,USA,https://layoffs.fyi
+Google_530,2022-09-13,10488,45,SaaS,USA,https://layoffs.fyi
+Apple_531,2022-09-04,12707,40,Technology,USA,https://layoffs.fyi
+Better.com_532,2020-05-12,12783,35,SaaS,USA,https://layoffs.fyi
+Peloton_533,2022-03-06,13155,49,Education,USA,https://layoffs.fyi
+OpenSea_534,2022-08-03,6689,39,Education,USA,https://layoffs.fyi
+Robinhood_535,2021-07-02,14017,17,E-commerce,USA,https://layoffs.fyi
+FastAF_536,2023-06-23,13661,16,Healthcare,USA,https://layoffs.fyi
+Uber_537,2022-03-08,1873,41,Transportation,USA,https://layoffs.fyi
+Apple_538,2020-04-27,2237,53,Fintech,USA,https://layoffs.fyi
+Cameo_539,2022-02-24,2206,15,E-commerce,USA,https://layoffs.fyi
+Shopify_540,2021-04-27,6099,44,Crypto,USA,https://layoffs.fyi
+Better.com_541,2020-07-03,6122,20,Real Estate,USA,https://layoffs.fyi
+Microsoft_542,2023-03-05,6874,10,Social Media,USA,https://layoffs.fyi
+Peloton_543,2020-07-17,2462,43,E-commerce,USA,https://layoffs.fyi
+Airbnb_544,2022-03-29,7792,14,Education,USA,https://layoffs.fyi
+Better.com_545,2022-06-22,8149,31,E-commerce,USA,https://layoffs.fyi
+Microsoft_546,2023-08-01,14225,16,Crypto,USA,https://layoffs.fyi
+Coinbase_547,2020-10-02,9371,51,Transportation,USA,https://layoffs.fyi
+Shopify_548,2021-06-14,3111,57,E-commerce,USA,https://layoffs.fyi
+Zoom_549,2020-07-27,13424,36,E-commerce,USA,https://layoffs.fyi
+Bolt_550,2021-08-03,13425,18,Real Estate,USA,https://layoffs.fyi
+Uber_551,2021-05-23,6066,4,SaaS,USA,https://layoffs.fyi
+Microsoft_552,2020-12-29,10466,59,Real Estate,USA,https://layoffs.fyi
+Uber_553,2022-09-29,8186,56,Real Estate,USA,https://layoffs.fyi
+Peloton_554,2023-03-14,11397,58,Crypto,USA,https://layoffs.fyi
+Better.com_555,2020-04-17,11619,54,Social Media,USA,https://layoffs.fyi
+Klarna_556,2022-01-12,9677,59,Technology,USA,https://layoffs.fyi
+Better.com_557,2022-03-14,14557,20,Social Media,USA,https://layoffs.fyi
+OpenSea_558,2020-11-26,4893,49,Fintech,USA,https://layoffs.fyi
+Salesforce_559,2020-02-09,14293,37,E-commerce,USA,https://layoffs.fyi
+Google_560,2022-02-28,5809,24,E-commerce,USA,https://layoffs.fyi
+Shopify_561,2021-02-20,14221,40,Real Estate,USA,https://layoffs.fyi
+Coinbase_562,2021-05-04,1335,6,Transportation,USA,https://layoffs.fyi
+Klarna_563,2020-06-09,4867,60,Education,USA,https://layoffs.fyi
+Airbnb_564,2022-02-04,646,21,Technology,USA,https://layoffs.fyi
+Cameo_565,2023-02-22,5686,5,SaaS,USA,https://layoffs.fyi
+Cameo_566,2021-10-31,12476,26,Healthcare,USA,https://layoffs.fyi
+Salesforce_567,2022-12-11,5854,54,SaaS,USA,https://layoffs.fyi
+Salesforce_568,2020-09-04,11052,24,Social Media,USA,https://layoffs.fyi
+Salesforce_569,2023-07-25,1792,8,Real Estate,USA,https://layoffs.fyi
+Uber_570,2023-02-19,4974,12,Fintech,USA,https://layoffs.fyi
+Better.com_571,2022-02-01,14434,9,SaaS,USA,https://layoffs.fyi
+OpenSea_572,2021-09-09,2377,19,Transportation,USA,https://layoffs.fyi
+Apple_573,2020-01-07,3047,6,Fintech,USA,https://layoffs.fyi
+Robinhood_574,2022-01-02,4539,20,Healthcare,USA,https://layoffs.fyi
+Klarna_575,2022-11-25,9051,6,Transportation,USA,https://layoffs.fyi
+Microsoft_576,2023-02-22,7400,13,Transportation,USA,https://layoffs.fyi
+Klarna_577,2022-04-18,7703,16,Crypto,USA,https://layoffs.fyi
+Shopify_578,2021-06-20,2260,13,SaaS,USA,https://layoffs.fyi
+Google_579,2021-12-01,4612,38,Real Estate,USA,https://layoffs.fyi
+Uber_580,2022-04-24,2282,27,Technology,USA,https://layoffs.fyi
+FastAF_581,2021-01-11,4346,23,Transportation,USA,https://layoffs.fyi
+Klarna_582,2021-06-04,13683,25,Technology,USA,https://layoffs.fyi
+Cameo_583,2022-07-03,3697,41,E-commerce,USA,https://layoffs.fyi
+OpenSea_584,2022-07-25,14069,18,Real Estate,USA,https://layoffs.fyi
+Google_585,2021-06-15,11237,46,Transportation,USA,https://layoffs.fyi
+Microsoft_586,2023-06-28,9199,30,Real Estate,USA,https://layoffs.fyi
+MainStreet_587,2021-01-11,117,12,Education,USA,https://layoffs.fyi
+Peloton_588,2021-01-02,12497,4,Social Media,USA,https://layoffs.fyi
+Robinhood_589,2021-12-03,743,44,Crypto,USA,https://layoffs.fyi
+Klarna_590,2020-06-02,1478,28,Fintech,USA,https://layoffs.fyi
+Peloton_591,2022-05-23,5151,4,Real Estate,USA,https://layoffs.fyi
+Google_592,2020-05-30,4348,6,Transportation,USA,https://layoffs.fyi
+FastAF_593,2022-04-14,9594,59,Transportation,USA,https://layoffs.fyi
+Airbnb_594,2020-07-25,8982,13,Education,USA,https://layoffs.fyi
+Klarna_595,2020-10-17,9910,39,Technology,USA,https://layoffs.fyi
+Oracle_596,2020-08-06,14759,39,Education,USA,https://layoffs.fyi
+Better.com_597,2020-10-30,5538,44,Social Media,USA,https://layoffs.fyi
+MainStreet_598,2021-12-11,5555,42,E-commerce,USA,https://layoffs.fyi
+Airbnb_599,2021-02-27,1798,8,Technology,USA,https://layoffs.fyi
+Zoom_600,2021-03-27,11841,43,Real Estate,USA,https://layoffs.fyi
+Netflix_601,2023-01-23,13559,21,SaaS,USA,https://layoffs.fyi
+Klarna_602,2023-08-29,1975,45,Healthcare,USA,https://layoffs.fyi
+Coinbase_603,2020-01-02,8377,6,Transportation,USA,https://layoffs.fyi
+Bolt_604,2023-10-06,564,22,Crypto,USA,https://layoffs.fyi
+Robinhood_605,2020-02-13,11254,43,E-commerce,USA,https://layoffs.fyi
+Google_606,2020-04-01,3499,33,Transportation,USA,https://layoffs.fyi
+Netflix_607,2022-06-12,9124,12,Crypto,USA,https://layoffs.fyi
+FastAF_608,2022-11-02,5798,54,E-commerce,USA,https://layoffs.fyi
+Shopify_609,2021-03-28,11436,33,Healthcare,USA,https://layoffs.fyi
+Apple_610,2023-06-02,8653,31,Transportation,USA,https://layoffs.fyi
+MainStreet_611,2020-08-20,6623,22,Technology,USA,https://layoffs.fyi
+Better.com_612,2023-01-03,13987,34,Real Estate,USA,https://layoffs.fyi
+Microsoft_613,2023-08-17,251,59,Technology,USA,https://layoffs.fyi
+Airbnb_614,2022-03-21,4319,4,SaaS,USA,https://layoffs.fyi
+Cameo_615,2022-10-08,5364,51,Crypto,USA,https://layoffs.fyi
+Bolt_616,2021-07-31,9083,8,SaaS,USA,https://layoffs.fyi
+Klarna_617,2020-07-07,5177,42,Technology,USA,https://layoffs.fyi
+Robinhood_618,2020-09-17,68,40,E-commerce,USA,https://layoffs.fyi
+Apple_619,2020-06-17,797,48,Transportation,USA,https://layoffs.fyi
+Coinbase_620,2022-12-10,184,51,Crypto,USA,https://layoffs.fyi
+Coinbase_621,2023-02-14,13074,5,Transportation,USA,https://layoffs.fyi
+Klarna_622,2022-06-08,5985,17,Real Estate,USA,https://layoffs.fyi
+Peloton_623,2022-02-05,11868,19,Healthcare,USA,https://layoffs.fyi
+Salesforce_624,2023-06-30,7182,60,Healthcare,USA,https://layoffs.fyi
+Shopify_625,2021-06-10,5555,43,Social Media,USA,https://layoffs.fyi
+Salesforce_626,2021-10-17,4038,44,Education,USA,https://layoffs.fyi
+Salesforce_627,2020-01-31,8636,37,E-commerce,USA,https://layoffs.fyi
+Salesforce_628,2022-05-17,2518,4,Social Media,USA,https://layoffs.fyi
+Bolt_629,2021-06-12,10536,51,SaaS,USA,https://layoffs.fyi
+Apple_630,2020-01-13,6074,16,Social Media,USA,https://layoffs.fyi
+Robinhood_631,2022-03-07,5502,8,Social Media,USA,https://layoffs.fyi
+FastAF_632,2023-01-28,8756,55,Healthcare,USA,https://layoffs.fyi
+Shopify_633,2022-04-12,1039,35,Education,USA,https://layoffs.fyi
+Shopify_634,2023-05-15,10765,42,Fintech,USA,https://layoffs.fyi
+MainStreet_635,2021-02-03,829,59,Healthcare,USA,https://layoffs.fyi
+Oracle_636,2021-08-17,9111,9,SaaS,USA,https://layoffs.fyi
+Shopify_637,2023-04-10,10836,8,Fintech,USA,https://layoffs.fyi
+MainStreet_638,2021-05-25,7424,45,Real Estate,USA,https://layoffs.fyi
+Salesforce_639,2020-08-26,1912,11,E-commerce,USA,https://layoffs.fyi
+MainStreet_640,2020-01-14,598,29,Education,USA,https://layoffs.fyi
+Peloton_641,2022-07-25,8050,12,Social Media,USA,https://layoffs.fyi
+Uber_642,2023-08-21,9224,9,Real Estate,USA,https://layoffs.fyi
+Netflix_643,2022-03-31,5160,40,Education,USA,https://layoffs.fyi
+Shopify_644,2023-01-13,14123,47,Real Estate,USA,https://layoffs.fyi
+Microsoft_645,2022-08-02,9829,24,Technology,USA,https://layoffs.fyi
+MainStreet_646,2021-04-23,1030,35,Social Media,USA,https://layoffs.fyi
+Peloton_647,2020-11-05,9089,8,Education,USA,https://layoffs.fyi
+Zoom_648,2021-03-10,4538,7,Real Estate,USA,https://layoffs.fyi
+Cameo_649,2023-06-09,7475,34,Real Estate,USA,https://layoffs.fyi
+Apple_650,2021-04-30,2108,22,Real Estate,USA,https://layoffs.fyi
+Airbnb_651,2020-06-06,14377,43,Healthcare,USA,https://layoffs.fyi
+Oracle_652,2020-03-24,2304,49,Education,USA,https://layoffs.fyi
+Peloton_653,2022-01-08,8875,52,E-commerce,USA,https://layoffs.fyi
+Cameo_654,2020-09-22,6864,25,Social Media,USA,https://layoffs.fyi
+Peloton_655,2023-08-24,1988,40,Fintech,USA,https://layoffs.fyi
+Zoom_656,2021-04-24,6541,13,Fintech,USA,https://layoffs.fyi
+Coinbase_657,2022-10-17,14902,39,Technology,USA,https://layoffs.fyi
+Apple_658,2022-10-16,6268,50,E-commerce,USA,https://layoffs.fyi
+Shopify_659,2021-12-05,590,32,Fintech,USA,https://layoffs.fyi
+Uber_660,2021-05-09,14793,11,Real Estate,USA,https://layoffs.fyi
+Peloton_661,2023-01-23,3419,50,Technology,USA,https://layoffs.fyi
+Zoom_662,2022-06-13,7226,21,Education,USA,https://layoffs.fyi
+Google_663,2021-01-04,2881,60,Healthcare,USA,https://layoffs.fyi
+Peloton_664,2020-11-14,1113,55,Transportation,USA,https://layoffs.fyi
+Netflix_665,2020-10-06,5336,19,Technology,USA,https://layoffs.fyi
+Peloton_666,2022-06-12,6291,35,Technology,USA,https://layoffs.fyi
+Microsoft_667,2023-05-05,216,31,Healthcare,USA,https://layoffs.fyi
+Shopify_668,2022-06-21,6285,44,E-commerce,USA,https://layoffs.fyi
+FastAF_669,2020-11-10,2507,40,Crypto,USA,https://layoffs.fyi
+Zoom_670,2022-04-01,5513,41,E-commerce,USA,https://layoffs.fyi
+Airbnb_671,2020-11-16,12397,56,Real Estate,USA,https://layoffs.fyi
+Apple_672,2022-10-08,5481,25,Social Media,USA,https://layoffs.fyi
+Airbnb_673,2020-06-26,10895,57,Real Estate,USA,https://layoffs.fyi
+Better.com_674,2022-06-15,7320,22,Social Media,USA,https://layoffs.fyi
+Shopify_675,2021-03-06,8073,48,SaaS,USA,https://layoffs.fyi
+OpenSea_676,2020-10-23,3220,58,Transportation,USA,https://layoffs.fyi
+FastAF_677,2021-02-18,7936,59,E-commerce,USA,https://layoffs.fyi
+Zoom_678,2022-04-19,4493,53,Healthcare,USA,https://layoffs.fyi
+Oracle_679,2022-09-24,11733,41,Real Estate,USA,https://layoffs.fyi
+Klarna_680,2023-05-19,7153,24,Education,USA,https://layoffs.fyi
+Cameo_681,2022-07-18,2785,10,Healthcare,USA,https://layoffs.fyi
+Airbnb_682,2020-08-15,3609,43,Technology,USA,https://layoffs.fyi
+Better.com_683,2022-11-28,7071,5,Social Media,USA,https://layoffs.fyi
+Microsoft_684,2021-02-21,12995,59,Healthcare,USA,https://layoffs.fyi
+Airbnb_685,2021-02-06,8492,20,E-commerce,USA,https://layoffs.fyi
+Uber_686,2022-12-23,6859,45,Education,USA,https://layoffs.fyi
+OpenSea_687,2022-01-13,6254,8,E-commerce,USA,https://layoffs.fyi
+Oracle_688,2020-04-24,11539,39,Crypto,USA,https://layoffs.fyi
+Microsoft_689,2020-06-18,3674,44,Technology,USA,https://layoffs.fyi
+Robinhood_690,2021-12-28,1580,24,Transportation,USA,https://layoffs.fyi
+Bolt_691,2020-04-10,4090,56,Crypto,USA,https://layoffs.fyi
+Uber_692,2021-06-04,6567,57,Social Media,USA,https://layoffs.fyi
+FastAF_693,2020-02-10,5437,53,SaaS,USA,https://layoffs.fyi
+Peloton_694,2020-01-18,5644,35,Real Estate,USA,https://layoffs.fyi
+Airbnb_695,2021-03-17,3026,43,Technology,USA,https://layoffs.fyi
+Uber_696,2023-06-12,837,19,SaaS,USA,https://layoffs.fyi
+Robinhood_697,2023-09-22,8455,35,Real Estate,USA,https://layoffs.fyi
+Google_698,2023-09-29,11599,47,Fintech,USA,https://layoffs.fyi
+Better.com_699,2022-12-28,2993,19,Crypto,USA,https://layoffs.fyi
+Microsoft_700,2021-04-08,9402,20,Healthcare,USA,https://layoffs.fyi
+Cameo_701,2021-03-10,2569,38,Technology,USA,https://layoffs.fyi
+Zoom_702,2020-11-01,9938,10,Real Estate,USA,https://layoffs.fyi
+Netflix_703,2021-10-18,9164,51,Technology,USA,https://layoffs.fyi
+Airbnb_704,2020-10-21,11997,5,Technology,USA,https://layoffs.fyi
+Google_705,2023-03-20,14392,55,Healthcare,USA,https://layoffs.fyi
+Microsoft_706,2022-04-21,7951,49,Crypto,USA,https://layoffs.fyi
+Cameo_707,2022-04-29,7636,22,Technology,USA,https://layoffs.fyi
+Coinbase_708,2020-02-04,14434,24,Transportation,USA,https://layoffs.fyi
+Microsoft_709,2022-01-07,5312,45,Education,USA,https://layoffs.fyi
+Airbnb_710,2023-02-28,10151,43,Real Estate,USA,https://layoffs.fyi
+Netflix_711,2021-01-05,4774,21,Fintech,USA,https://layoffs.fyi
+Apple_712,2021-08-08,3560,3,Technology,USA,https://layoffs.fyi
+Google_713,2021-05-14,13125,53,Transportation,USA,https://layoffs.fyi
+Coinbase_714,2020-02-24,11398,28,Education,USA,https://layoffs.fyi
+Better.com_715,2022-07-05,5739,24,SaaS,USA,https://layoffs.fyi
+Airbnb_716,2023-02-15,7849,23,Crypto,USA,https://layoffs.fyi
+Uber_717,2020-06-08,9532,27,Healthcare,USA,https://layoffs.fyi
+Oracle_718,2022-02-12,224,38,Fintech,USA,https://layoffs.fyi
+Coinbase_719,2020-06-21,2356,27,Fintech,USA,https://layoffs.fyi
+Uber_720,2020-02-15,5234,6,SaaS,USA,https://layoffs.fyi
+Google_721,2020-10-06,9018,25,Crypto,USA,https://layoffs.fyi
+Airbnb_722,2022-02-22,62,3,Education,USA,https://layoffs.fyi
+Uber_723,2020-04-10,4347,55,Crypto,USA,https://layoffs.fyi
+Klarna_724,2022-03-21,7069,8,Transportation,USA,https://layoffs.fyi
+Google_725,2020-06-21,12575,35,Technology,USA,https://layoffs.fyi
+Oracle_726,2022-10-21,8269,7,E-commerce,USA,https://layoffs.fyi
+MainStreet_727,2020-12-16,203,40,E-commerce,USA,https://layoffs.fyi
+Apple_728,2021-06-18,8365,29,Education,USA,https://layoffs.fyi
+Airbnb_729,2022-01-23,7304,38,Fintech,USA,https://layoffs.fyi
+Microsoft_730,2022-07-07,3386,25,Crypto,USA,https://layoffs.fyi
+Bolt_731,2020-11-03,2563,57,Social Media,USA,https://layoffs.fyi
+Peloton_732,2020-05-28,3853,60,Fintech,USA,https://layoffs.fyi
+Netflix_733,2023-02-16,4154,10,Education,USA,https://layoffs.fyi
+Google_734,2022-06-01,13421,47,Transportation,USA,https://layoffs.fyi
+Google_735,2020-03-05,1969,12,Healthcare,USA,https://layoffs.fyi
+Apple_736,2023-10-28,11700,47,Social Media,USA,https://layoffs.fyi
+Airbnb_737,2021-08-05,12921,53,Transportation,USA,https://layoffs.fyi
+Oracle_738,2020-02-15,319,51,Social Media,USA,https://layoffs.fyi
+Klarna_739,2023-01-22,2631,39,Healthcare,USA,https://layoffs.fyi
+Salesforce_740,2021-10-24,5769,57,Education,USA,https://layoffs.fyi
+Google_741,2020-04-21,12403,45,Healthcare,USA,https://layoffs.fyi
+Shopify_742,2020-04-23,5413,38,Healthcare,USA,https://layoffs.fyi
+Robinhood_743,2020-05-07,2344,20,Crypto,USA,https://layoffs.fyi
+Klarna_744,2021-08-03,12197,33,Healthcare,USA,https://layoffs.fyi
+Salesforce_745,2023-10-29,9586,26,Education,USA,https://layoffs.fyi
+Better.com_746,2022-12-30,9032,8,Transportation,USA,https://layoffs.fyi
+Microsoft_747,2022-08-23,4468,46,Technology,USA,https://layoffs.fyi
+Coinbase_748,2021-08-07,7667,14,Healthcare,USA,https://layoffs.fyi
+Uber_749,2021-04-09,13885,31,Real Estate,USA,https://layoffs.fyi
+OpenSea_750,2021-08-12,7143,48,Transportation,USA,https://layoffs.fyi
+Coinbase_751,2020-03-13,12910,41,Crypto,USA,https://layoffs.fyi
+Zoom_752,2021-03-11,11003,52,Fintech,USA,https://layoffs.fyi
+Cameo_753,2021-08-22,2140,10,Fintech,USA,https://layoffs.fyi
+Apple_754,2020-02-21,8989,10,SaaS,USA,https://layoffs.fyi
+Better.com_755,2023-02-20,298,33,Education,USA,https://layoffs.fyi
+Better.com_756,2023-02-02,12409,26,Healthcare,USA,https://layoffs.fyi
+Bolt_757,2020-04-25,6540,10,E-commerce,USA,https://layoffs.fyi
+Salesforce_758,2022-12-29,7123,40,Technology,USA,https://layoffs.fyi
+Google_759,2023-06-10,6909,3,SaaS,USA,https://layoffs.fyi
+Shopify_760,2023-07-30,14508,27,Social Media,USA,https://layoffs.fyi
+Bolt_761,2021-04-03,14024,45,Crypto,USA,https://layoffs.fyi
+Uber_762,2021-10-28,10545,10,E-commerce,USA,https://layoffs.fyi
+Coinbase_763,2020-03-21,6248,16,Social Media,USA,https://layoffs.fyi
+Oracle_764,2021-09-15,13349,26,SaaS,USA,https://layoffs.fyi
+Salesforce_765,2020-11-04,12106,39,Transportation,USA,https://layoffs.fyi
+Google_766,2023-03-27,409,29,Social Media,USA,https://layoffs.fyi
+MainStreet_767,2020-04-27,14489,54,Healthcare,USA,https://layoffs.fyi
+Oracle_768,2020-12-15,9141,34,Transportation,USA,https://layoffs.fyi
+Microsoft_769,2021-08-29,12100,20,Real Estate,USA,https://layoffs.fyi
+Better.com_770,2020-09-11,9281,43,Education,USA,https://layoffs.fyi
+Better.com_771,2023-05-27,364,7,Social Media,USA,https://layoffs.fyi
+Better.com_772,2020-02-28,5849,22,Crypto,USA,https://layoffs.fyi
+Netflix_773,2020-10-31,9786,48,SaaS,USA,https://layoffs.fyi
+Klarna_774,2020-06-15,6736,32,Crypto,USA,https://layoffs.fyi
+Salesforce_775,2023-03-31,2657,51,Education,USA,https://layoffs.fyi
+Salesforce_776,2021-10-24,5796,57,Education,USA,https://layoffs.fyi
+Salesforce_777,2020-12-13,3669,16,Transportation,USA,https://layoffs.fyi
+Google_778,2023-01-21,1510,45,Healthcare,USA,https://layoffs.fyi
+MainStreet_779,2021-09-04,55,26,Fintech,USA,https://layoffs.fyi
+Bolt_780,2023-10-22,14938,12,Education,USA,https://layoffs.fyi
+Shopify_781,2022-12-21,9203,42,E-commerce,USA,https://layoffs.fyi
+Microsoft_782,2021-12-12,4514,41,Fintech,USA,https://layoffs.fyi
+Google_783,2021-06-07,5723,32,Social Media,USA,https://layoffs.fyi
+Apple_784,2022-08-21,2682,41,E-commerce,USA,https://layoffs.fyi
+Shopify_785,2020-06-07,5343,56,Crypto,USA,https://layoffs.fyi
+Klarna_786,2021-03-04,11076,28,Fintech,USA,https://layoffs.fyi
+Oracle_787,2022-03-22,384,15,Real Estate,USA,https://layoffs.fyi
+Coinbase_788,2021-02-24,111,5,E-commerce,USA,https://layoffs.fyi
+Zoom_789,2022-02-11,9269,8,Crypto,USA,https://layoffs.fyi
+Salesforce_790,2021-12-21,7238,44,Fintech,USA,https://layoffs.fyi
+Cameo_791,2021-07-21,6761,6,Transportation,USA,https://layoffs.fyi
+Oracle_792,2021-04-19,8354,33,Technology,USA,https://layoffs.fyi
+MainStreet_793,2022-05-30,582,24,SaaS,USA,https://layoffs.fyi
+Google_794,2021-04-02,5813,11,SaaS,USA,https://layoffs.fyi
+Bolt_795,2023-04-28,10788,46,Fintech,USA,https://layoffs.fyi
+Zoom_796,2023-01-03,11333,40,Crypto,USA,https://layoffs.fyi
+MainStreet_797,2022-10-25,14151,36,E-commerce,USA,https://layoffs.fyi
+FastAF_798,2021-08-13,13067,48,SaaS,USA,https://layoffs.fyi
+Oracle_799,2020-08-17,9311,34,Transportation,USA,https://layoffs.fyi
+Bolt_800,2020-02-18,14288,45,Technology,USA,https://layoffs.fyi
+OpenSea_801,2021-04-01,5317,43,Fintech,USA,https://layoffs.fyi
+Shopify_802,2020-07-17,3756,4,Fintech,USA,https://layoffs.fyi
+Robinhood_803,2023-10-13,1261,45,Crypto,USA,https://layoffs.fyi
+Uber_804,2020-11-04,672,48,Healthcare,USA,https://layoffs.fyi
+Netflix_805,2022-11-21,5852,20,Technology,USA,https://layoffs.fyi
+Better.com_806,2022-07-04,4428,15,Fintech,USA,https://layoffs.fyi
+Salesforce_807,2020-03-27,11937,59,Real Estate,USA,https://layoffs.fyi
+FastAF_808,2021-12-04,3785,44,E-commerce,USA,https://layoffs.fyi
+Airbnb_809,2022-07-16,10864,36,Fintech,USA,https://layoffs.fyi
+MainStreet_810,2023-01-16,1942,53,Social Media,USA,https://layoffs.fyi
+Robinhood_811,2023-10-09,13470,30,Crypto,USA,https://layoffs.fyi
+Netflix_812,2023-05-12,5801,23,Transportation,USA,https://layoffs.fyi
+MainStreet_813,2021-09-26,6675,49,Real Estate,USA,https://layoffs.fyi
+Cameo_814,2023-05-06,8281,32,Crypto,USA,https://layoffs.fyi
+MainStreet_815,2022-01-14,2763,51,Fintech,USA,https://layoffs.fyi
+Salesforce_816,2020-03-25,11482,20,Transportation,USA,https://layoffs.fyi
+Zoom_817,2023-09-07,3228,35,Crypto,USA,https://layoffs.fyi
+Uber_818,2022-11-12,5813,38,Fintech,USA,https://layoffs.fyi
+Coinbase_819,2023-09-18,9486,37,Transportation,USA,https://layoffs.fyi
+Airbnb_820,2020-10-18,13544,53,Crypto,USA,https://layoffs.fyi
+Salesforce_821,2023-05-28,5618,53,Fintech,USA,https://layoffs.fyi
+Apple_822,2020-02-23,14917,39,Fintech,USA,https://layoffs.fyi
+Shopify_823,2020-05-01,10647,12,Fintech,USA,https://layoffs.fyi
+Uber_824,2023-05-06,13898,14,Real Estate,USA,https://layoffs.fyi
+Microsoft_825,2020-07-07,9724,25,Transportation,USA,https://layoffs.fyi
+Netflix_826,2020-11-29,12173,30,Fintech,USA,https://layoffs.fyi
+Bolt_827,2023-10-08,11501,3,E-commerce,USA,https://layoffs.fyi
+Zoom_828,2022-07-21,6086,54,Education,USA,https://layoffs.fyi
+Klarna_829,2022-05-24,1973,14,Social Media,USA,https://layoffs.fyi
+Coinbase_830,2022-10-16,14396,34,Transportation,USA,https://layoffs.fyi
+Better.com_831,2020-06-16,3889,44,Real Estate,USA,https://layoffs.fyi
+Cameo_832,2023-07-02,9303,6,Fintech,USA,https://layoffs.fyi
+Uber_833,2022-02-13,13083,35,SaaS,USA,https://layoffs.fyi
+FastAF_834,2023-08-07,1908,28,Healthcare,USA,https://layoffs.fyi
+Coinbase_835,2021-11-14,7601,40,Real Estate,USA,https://layoffs.fyi
+Airbnb_836,2023-01-09,1592,51,Technology,USA,https://layoffs.fyi
+Microsoft_837,2022-08-21,14688,50,Transportation,USA,https://layoffs.fyi
+Microsoft_838,2021-04-10,2697,41,Education,USA,https://layoffs.fyi
+Coinbase_839,2021-12-09,8129,28,E-commerce,USA,https://layoffs.fyi
+Google_840,2023-09-01,6133,58,Social Media,USA,https://layoffs.fyi
+Robinhood_841,2020-06-28,11457,50,Transportation,USA,https://layoffs.fyi
+Better.com_842,2022-09-24,12409,11,Transportation,USA,https://layoffs.fyi
+Peloton_843,2020-01-16,8602,47,Healthcare,USA,https://layoffs.fyi
+Shopify_844,2020-12-25,12507,59,Crypto,USA,https://layoffs.fyi
+Coinbase_845,2021-07-11,13789,60,Healthcare,USA,https://layoffs.fyi
+Oracle_846,2023-10-01,4371,52,E-commerce,USA,https://layoffs.fyi
+Robinhood_847,2021-05-16,10240,20,Fintech,USA,https://layoffs.fyi
+Google_848,2021-05-29,11598,40,Healthcare,USA,https://layoffs.fyi
+Klarna_849,2023-03-20,7474,19,E-commerce,USA,https://layoffs.fyi
+Robinhood_850,2020-04-21,3614,23,Healthcare,USA,https://layoffs.fyi
+Klarna_851,2022-03-24,10455,19,Social Media,USA,https://layoffs.fyi
+Google_852,2020-03-16,8723,25,Real Estate,USA,https://layoffs.fyi
+Better.com_853,2020-03-18,9954,16,Healthcare,USA,https://layoffs.fyi
+Klarna_854,2020-07-01,3028,31,Education,USA,https://layoffs.fyi
+OpenSea_855,2021-06-13,4089,9,Crypto,USA,https://layoffs.fyi
+Zoom_856,2021-03-11,4383,8,SaaS,USA,https://layoffs.fyi
+Coinbase_857,2023-08-08,9960,51,Education,USA,https://layoffs.fyi
+Apple_858,2022-08-09,8042,11,Transportation,USA,https://layoffs.fyi
+Cameo_859,2021-10-08,4782,54,Crypto,USA,https://layoffs.fyi
+Microsoft_860,2023-03-19,9130,55,Social Media,USA,https://layoffs.fyi
+Oracle_861,2020-04-16,5698,51,Healthcare,USA,https://layoffs.fyi
+Peloton_862,2022-05-22,11613,7,SaaS,USA,https://layoffs.fyi
+Google_863,2020-09-18,8024,7,SaaS,USA,https://layoffs.fyi
+Netflix_864,2020-11-07,13339,41,Education,USA,https://layoffs.fyi
+Peloton_865,2022-02-04,9706,17,Real Estate,USA,https://layoffs.fyi
+Better.com_866,2020-11-15,10386,13,E-commerce,USA,https://layoffs.fyi
+Oracle_867,2021-04-27,7889,47,Real Estate,USA,https://layoffs.fyi
+Zoom_868,2021-02-25,4843,17,Crypto,USA,https://layoffs.fyi
+MainStreet_869,2022-07-12,7835,20,Education,USA,https://layoffs.fyi
+Apple_870,2022-05-20,7138,43,SaaS,USA,https://layoffs.fyi
+Uber_871,2022-09-23,8038,55,E-commerce,USA,https://layoffs.fyi
+Zoom_872,2020-06-23,472,22,Transportation,USA,https://layoffs.fyi
+MainStreet_873,2020-05-13,9298,59,Crypto,USA,https://layoffs.fyi
+Microsoft_874,2021-03-11,3773,7,SaaS,USA,https://layoffs.fyi
+Apple_875,2021-10-28,11341,52,E-commerce,USA,https://layoffs.fyi
+Zoom_876,2023-04-06,5961,44,E-commerce,USA,https://layoffs.fyi
+Coinbase_877,2021-06-13,6152,41,Social Media,USA,https://layoffs.fyi
+Zoom_878,2021-12-04,11063,53,E-commerce,USA,https://layoffs.fyi
+Oracle_879,2023-08-24,6294,52,Healthcare,USA,https://layoffs.fyi
+Bolt_880,2020-11-10,5045,13,Transportation,USA,https://layoffs.fyi
+Google_881,2023-02-19,9758,18,Healthcare,USA,https://layoffs.fyi
+Zoom_882,2023-09-04,8107,23,Social Media,USA,https://layoffs.fyi
+Netflix_883,2020-05-30,7793,29,Real Estate,USA,https://layoffs.fyi
+Airbnb_884,2022-01-30,8317,36,Technology,USA,https://layoffs.fyi
+Peloton_885,2022-07-05,10566,51,Social Media,USA,https://layoffs.fyi
+Netflix_886,2023-04-22,14188,50,SaaS,USA,https://layoffs.fyi
+Zoom_887,2022-06-22,10029,9,E-commerce,USA,https://layoffs.fyi
+Peloton_888,2022-11-09,10928,36,Crypto,USA,https://layoffs.fyi
+Robinhood_889,2022-02-28,7455,42,Healthcare,USA,https://layoffs.fyi
+Shopify_890,2022-02-26,5093,56,Real Estate,USA,https://layoffs.fyi
+Cameo_891,2021-08-15,6590,16,SaaS,USA,https://layoffs.fyi
+Microsoft_892,2020-02-28,13577,52,Fintech,USA,https://layoffs.fyi
+Cameo_893,2022-05-28,9223,3,SaaS,USA,https://layoffs.fyi
+Shopify_894,2023-05-23,5356,49,Crypto,USA,https://layoffs.fyi
+OpenSea_895,2023-04-18,3739,55,Education,USA,https://layoffs.fyi
+Robinhood_896,2023-01-31,13139,51,Social Media,USA,https://layoffs.fyi
+Oracle_897,2022-03-15,10094,14,Transportation,USA,https://layoffs.fyi
+Shopify_898,2023-01-25,204,46,Transportation,USA,https://layoffs.fyi
+OpenSea_899,2021-05-28,4129,56,Education,USA,https://layoffs.fyi
+Robinhood_900,2022-07-03,1170,7,SaaS,USA,https://layoffs.fyi
+Bolt_901,2020-05-06,4196,8,Transportation,USA,https://layoffs.fyi
+Better.com_902,2020-10-10,6271,3,Transportation,USA,https://layoffs.fyi
+Better.com_903,2020-09-12,2257,8,Education,USA,https://layoffs.fyi
+Peloton_904,2021-09-28,5902,27,Healthcare,USA,https://layoffs.fyi
+Uber_905,2023-05-18,11567,40,Social Media,USA,https://layoffs.fyi
+Shopify_906,2020-02-21,3175,56,Real Estate,USA,https://layoffs.fyi
+Zoom_907,2021-04-09,14277,28,Crypto,USA,https://layoffs.fyi
+Uber_908,2022-07-05,4667,58,Real Estate,USA,https://layoffs.fyi
+OpenSea_909,2023-05-27,2502,55,Education,USA,https://layoffs.fyi
+Zoom_910,2023-02-11,1093,14,Real Estate,USA,https://layoffs.fyi
+Airbnb_911,2021-07-12,916,55,SaaS,USA,https://layoffs.fyi
+Salesforce_912,2022-11-26,4538,43,Real Estate,USA,https://layoffs.fyi
+Better.com_913,2021-11-21,6789,57,Transportation,USA,https://layoffs.fyi
+Uber_914,2022-01-07,5496,28,Social Media,USA,https://layoffs.fyi
+Salesforce_915,2022-05-22,12394,44,Healthcare,USA,https://layoffs.fyi
+Oracle_916,2022-10-24,5310,47,SaaS,USA,https://layoffs.fyi
+Apple_917,2020-10-20,7319,45,SaaS,USA,https://layoffs.fyi
+Coinbase_918,2020-04-02,14233,13,Technology,USA,https://layoffs.fyi
+OpenSea_919,2021-09-24,6779,38,Crypto,USA,https://layoffs.fyi
+OpenSea_920,2022-03-09,6342,5,Education,USA,https://layoffs.fyi
+OpenSea_921,2022-10-12,3235,20,E-commerce,USA,https://layoffs.fyi
+Salesforce_922,2023-03-06,6239,10,Education,USA,https://layoffs.fyi
+Bolt_923,2020-08-31,10272,45,Healthcare,USA,https://layoffs.fyi
+Uber_924,2020-07-15,8487,53,Fintech,USA,https://layoffs.fyi
+Oracle_925,2023-03-18,13810,46,SaaS,USA,https://layoffs.fyi
+Coinbase_926,2020-03-19,3136,50,Education,USA,https://layoffs.fyi
+Oracle_927,2022-02-04,2812,10,Social Media,USA,https://layoffs.fyi
+MainStreet_928,2023-02-27,2964,32,Transportation,USA,https://layoffs.fyi
+Apple_929,2020-03-13,6730,16,E-commerce,USA,https://layoffs.fyi
+Airbnb_930,2020-07-12,8438,40,E-commerce,USA,https://layoffs.fyi
+Robinhood_931,2020-12-25,10053,3,Healthcare,USA,https://layoffs.fyi
+Bolt_932,2022-09-21,5694,29,Real Estate,USA,https://layoffs.fyi
+Shopify_933,2023-07-15,4309,25,Fintech,USA,https://layoffs.fyi
+Uber_934,2023-03-18,9787,32,E-commerce,USA,https://layoffs.fyi
+Bolt_935,2022-12-04,5121,57,Technology,USA,https://layoffs.fyi
+Shopify_936,2020-03-01,2094,23,SaaS,USA,https://layoffs.fyi
+Peloton_937,2020-09-16,11375,10,Technology,USA,https://layoffs.fyi
+Robinhood_938,2021-03-22,3309,24,Technology,USA,https://layoffs.fyi
+Microsoft_939,2020-08-08,433,10,Crypto,USA,https://layoffs.fyi
+Cameo_940,2021-01-25,432,52,SaaS,USA,https://layoffs.fyi
+OpenSea_941,2020-03-24,6025,49,E-commerce,USA,https://layoffs.fyi
+Uber_942,2022-11-18,10490,52,Social Media,USA,https://layoffs.fyi
+Klarna_943,2023-05-14,13170,19,Real Estate,USA,https://layoffs.fyi
+Peloton_944,2022-02-13,9734,37,Technology,USA,https://layoffs.fyi
+MainStreet_945,2023-07-17,10720,41,Social Media,USA,https://layoffs.fyi
+Zoom_946,2020-10-14,8472,8,Fintech,USA,https://layoffs.fyi
+Better.com_947,2021-10-07,13834,12,Social Media,USA,https://layoffs.fyi
+Zoom_948,2020-01-19,4578,41,SaaS,USA,https://layoffs.fyi
+Apple_949,2022-08-31,11442,26,Education,USA,https://layoffs.fyi
+Microsoft_950,2022-01-28,10162,25,Social Media,USA,https://layoffs.fyi
+Uber_951,2020-07-10,7913,49,Healthcare,USA,https://layoffs.fyi
+Salesforce_952,2022-06-25,14110,53,Education,USA,https://layoffs.fyi
+Bolt_953,2021-06-01,14853,20,Transportation,USA,https://layoffs.fyi
+Peloton_954,2020-03-25,11359,8,Technology,USA,https://layoffs.fyi
+Airbnb_955,2021-04-23,10145,3,Transportation,USA,https://layoffs.fyi
+Airbnb_956,2021-07-24,10364,22,Real Estate,USA,https://layoffs.fyi
+FastAF_957,2022-10-09,13993,10,E-commerce,USA,https://layoffs.fyi
+Oracle_958,2020-04-19,2277,19,E-commerce,USA,https://layoffs.fyi
+Uber_959,2021-10-15,13365,18,Education,USA,https://layoffs.fyi
+FastAF_960,2020-12-31,1145,31,Healthcare,USA,https://layoffs.fyi
+Airbnb_961,2023-02-14,3853,10,Real Estate,USA,https://layoffs.fyi
+Zoom_962,2023-01-24,6372,57,Education,USA,https://layoffs.fyi
+Airbnb_963,2021-05-06,12452,59,Real Estate,USA,https://layoffs.fyi
+Klarna_964,2021-01-20,14736,50,Social Media,USA,https://layoffs.fyi
+Cameo_965,2022-08-08,793,32,Healthcare,USA,https://layoffs.fyi
+OpenSea_966,2021-12-25,5700,26,Technology,USA,https://layoffs.fyi
+Uber_967,2020-10-09,2927,52,Fintech,USA,https://layoffs.fyi
+Cameo_968,2023-01-02,12194,21,E-commerce,USA,https://layoffs.fyi
+Bolt_969,2022-10-20,579,5,Healthcare,USA,https://layoffs.fyi
+Netflix_970,2022-06-12,10491,56,Education,USA,https://layoffs.fyi
+Cameo_971,2022-08-31,6135,18,Technology,USA,https://layoffs.fyi
+Robinhood_972,2020-08-07,3300,54,Real Estate,USA,https://layoffs.fyi
+Peloton_973,2021-10-28,7951,39,Technology,USA,https://layoffs.fyi
+Peloton_974,2023-07-30,10712,45,Social Media,USA,https://layoffs.fyi
+OpenSea_975,2020-12-20,3754,35,Transportation,USA,https://layoffs.fyi
+Uber_976,2021-11-16,5719,60,Social Media,USA,https://layoffs.fyi
+Airbnb_977,2023-07-07,8277,45,SaaS,USA,https://layoffs.fyi
+Coinbase_978,2020-11-09,7006,9,Crypto,USA,https://layoffs.fyi
+Coinbase_979,2020-08-27,14256,39,Healthcare,USA,https://layoffs.fyi
+Microsoft_980,2023-03-31,275,34,Real Estate,USA,https://layoffs.fyi
+Coinbase_981,2020-05-18,7038,25,Social Media,USA,https://layoffs.fyi
+Cameo_982,2022-10-28,6094,46,Transportation,USA,https://layoffs.fyi
+Netflix_983,2023-04-17,6108,8,Crypto,USA,https://layoffs.fyi
+Netflix_984,2022-08-18,12403,19,E-commerce,USA,https://layoffs.fyi
+Netflix_985,2020-07-19,6986,16,Healthcare,USA,https://layoffs.fyi
+Better.com_986,2020-09-29,1206,44,Technology,USA,https://layoffs.fyi
+MainStreet_987,2021-01-14,8987,11,Crypto,USA,https://layoffs.fyi
+Better.com_988,2020-07-12,12648,55,Real Estate,USA,https://layoffs.fyi
+Apple_989,2021-09-20,5420,4,Transportation,USA,https://layoffs.fyi
+Peloton_990,2020-01-06,10347,27,E-commerce,USA,https://layoffs.fyi
+Klarna_991,2020-07-14,8802,40,Real Estate,USA,https://layoffs.fyi
+Better.com_992,2020-01-26,2378,52,Healthcare,USA,https://layoffs.fyi
+Shopify_993,2021-07-05,12590,39,Education,USA,https://layoffs.fyi
+Uber_994,2023-03-21,7812,15,Crypto,USA,https://layoffs.fyi
+Peloton_995,2020-07-16,2515,60,Transportation,USA,https://layoffs.fyi
+Bolt_996,2021-09-19,8899,25,Crypto,USA,https://layoffs.fyi
+Coinbase_997,2020-09-15,2137,56,Technology,USA,https://layoffs.fyi
+Klarna_998,2023-09-30,5506,4,Technology,USA,https://layoffs.fyi
+Zoom_999,2022-05-19,4226,13,Technology,USA,https://layoffs.fyi
+Bolt_1000,2023-07-15,3044,20,Real Estate,USA,https://layoffs.fyi
+Zoom_1001,2023-05-16,7225,47,E-commerce,USA,https://layoffs.fyi
+Netflix_1002,2021-07-20,12852,4,Healthcare,USA,https://layoffs.fyi
+OpenSea_1003,2022-12-20,2102,43,SaaS,USA,https://layoffs.fyi
+Zoom_1004,2022-09-22,941,49,Social Media,USA,https://layoffs.fyi
+Netflix_1005,2022-05-11,8771,43,Fintech,USA,https://layoffs.fyi
+Robinhood_1006,2020-05-27,6514,53,Real Estate,USA,https://layoffs.fyi
+Robinhood_1007,2023-01-10,398,40,SaaS,USA,https://layoffs.fyi
+Cameo_1008,2021-03-22,7427,59,E-commerce,USA,https://layoffs.fyi
+Coinbase_1009,2022-02-11,6882,56,Technology,USA,https://layoffs.fyi
+Salesforce_1010,2022-01-21,9054,10,Crypto,USA,https://layoffs.fyi
+FastAF_1011,2020-04-20,10887,52,Crypto,USA,https://layoffs.fyi
+Salesforce_1012,2021-05-12,6360,31,Fintech,USA,https://layoffs.fyi
+FastAF_1013,2022-08-25,6282,28,Real Estate,USA,https://layoffs.fyi
+Airbnb_1014,2021-12-11,14848,35,Fintech,USA,https://layoffs.fyi
+Microsoft_1015,2021-05-07,12642,12,Transportation,USA,https://layoffs.fyi
+Uber_1016,2020-09-20,8217,3,Healthcare,USA,https://layoffs.fyi
+Google_1017,2021-01-22,7718,17,Technology,USA,https://layoffs.fyi
+Uber_1018,2022-02-25,8493,42,Fintech,USA,https://layoffs.fyi
+Airbnb_1019,2021-07-09,8809,44,Social Media,USA,https://layoffs.fyi
+Cameo_1020,2020-01-20,6809,10,Technology,USA,https://layoffs.fyi
+Airbnb_1021,2022-12-18,14763,37,Technology,USA,https://layoffs.fyi
+MainStreet_1022,2020-06-13,2262,58,Real Estate,USA,https://layoffs.fyi
+OpenSea_1023,2021-02-16,4938,39,Transportation,USA,https://layoffs.fyi
+OpenSea_1024,2023-09-10,8716,39,Healthcare,USA,https://layoffs.fyi
+Oracle_1025,2023-01-22,8911,26,Technology,USA,https://layoffs.fyi
+Shopify_1026,2023-04-22,102,30,Fintech,USA,https://layoffs.fyi
+Shopify_1027,2020-12-14,13100,28,Healthcare,USA,https://layoffs.fyi
+Airbnb_1028,2021-01-27,3791,53,Transportation,USA,https://layoffs.fyi
+Peloton_1029,2022-06-19,14321,60,Technology,USA,https://layoffs.fyi
+Apple_1030,2023-04-24,2377,43,Technology,USA,https://layoffs.fyi
+Zoom_1031,2020-09-26,14334,45,Transportation,USA,https://layoffs.fyi
+Shopify_1032,2023-01-30,13694,23,Technology,USA,https://layoffs.fyi
+Microsoft_1033,2022-02-16,582,9,Transportation,USA,https://layoffs.fyi
+Microsoft_1034,2021-12-05,1168,12,E-commerce,USA,https://layoffs.fyi
+Microsoft_1035,2021-11-17,7539,37,Education,USA,https://layoffs.fyi
+Robinhood_1036,2022-01-12,13944,26,Transportation,USA,https://layoffs.fyi
+Uber_1037,2021-09-28,4303,29,Crypto,USA,https://layoffs.fyi
+Netflix_1038,2020-02-18,6513,25,Crypto,USA,https://layoffs.fyi
+Zoom_1039,2020-06-16,3559,15,Technology,USA,https://layoffs.fyi
+Better.com_1040,2021-04-15,14258,34,Fintech,USA,https://layoffs.fyi
+Robinhood_1041,2023-08-23,14239,27,Healthcare,USA,https://layoffs.fyi
+Apple_1042,2021-09-11,13975,60,Real Estate,USA,https://layoffs.fyi
+Airbnb_1043,2021-12-24,12051,4,Technology,USA,https://layoffs.fyi
+Uber_1044,2021-08-21,4708,19,Technology,USA,https://layoffs.fyi
+Klarna_1045,2023-01-13,13691,5,Education,USA,https://layoffs.fyi
+Coinbase_1046,2021-10-22,2465,44,Crypto,USA,https://layoffs.fyi
+FastAF_1047,2023-05-04,3586,45,Healthcare,USA,https://layoffs.fyi
+FastAF_1048,2023-03-10,7353,21,Social Media,USA,https://layoffs.fyi
+Google_1049,2021-10-16,7002,17,Education,USA,https://layoffs.fyi
+Cameo_1050,2023-05-17,6634,3,E-commerce,USA,https://layoffs.fyi
+Robinhood_1051,2020-10-23,2862,56,Crypto,USA,https://layoffs.fyi
+Peloton_1052,2020-05-28,11121,46,Social Media,USA,https://layoffs.fyi
+Airbnb_1053,2021-06-25,8772,51,Education,USA,https://layoffs.fyi
+Netflix_1054,2021-12-12,11793,10,Education,USA,https://layoffs.fyi
+Better.com_1055,2020-07-08,9721,53,Technology,USA,https://layoffs.fyi
+Klarna_1056,2022-07-19,9374,17,Healthcare,USA,https://layoffs.fyi
+Uber_1057,2022-07-26,12453,6,Real Estate,USA,https://layoffs.fyi
+Apple_1058,2021-03-23,9387,23,E-commerce,USA,https://layoffs.fyi
+Cameo_1059,2020-05-24,2233,13,Social Media,USA,https://layoffs.fyi
+Microsoft_1060,2023-04-03,9336,16,Real Estate,USA,https://layoffs.fyi
+Google_1061,2022-05-12,4329,37,E-commerce,USA,https://layoffs.fyi
+OpenSea_1062,2020-09-28,11630,42,Education,USA,https://layoffs.fyi
+Uber_1063,2021-12-18,8605,47,SaaS,USA,https://layoffs.fyi
+Airbnb_1064,2021-06-08,12995,22,Education,USA,https://layoffs.fyi
+Salesforce_1065,2020-08-11,3567,15,Transportation,USA,https://layoffs.fyi
+Microsoft_1066,2021-02-02,4736,18,Education,USA,https://layoffs.fyi
+FastAF_1067,2022-10-19,1174,31,Social Media,USA,https://layoffs.fyi
+Peloton_1068,2023-09-08,5101,10,Transportation,USA,https://layoffs.fyi
+Uber_1069,2022-02-26,1983,59,Crypto,USA,https://layoffs.fyi
+Peloton_1070,2023-10-04,14462,17,E-commerce,USA,https://layoffs.fyi
+Robinhood_1071,2021-07-21,13563,56,Healthcare,USA,https://layoffs.fyi
+Bolt_1072,2023-08-21,13460,29,E-commerce,USA,https://layoffs.fyi
+Microsoft_1073,2022-04-10,3023,10,E-commerce,USA,https://layoffs.fyi
+Uber_1074,2022-10-08,1314,55,Transportation,USA,https://layoffs.fyi
+Oracle_1075,2022-12-15,1921,10,Education,USA,https://layoffs.fyi
+Google_1076,2020-02-10,4388,42,Transportation,USA,https://layoffs.fyi
+FastAF_1077,2020-07-12,12790,52,Healthcare,USA,https://layoffs.fyi
+Uber_1078,2021-05-21,4613,45,Healthcare,USA,https://layoffs.fyi
+Oracle_1079,2023-05-20,1613,25,Transportation,USA,https://layoffs.fyi
+Shopify_1080,2023-04-26,4157,27,Crypto,USA,https://layoffs.fyi
+Oracle_1081,2023-06-29,9207,3,Technology,USA,https://layoffs.fyi
+Better.com_1082,2020-10-30,13403,35,Healthcare,USA,https://layoffs.fyi
+Cameo_1083,2020-09-23,8867,17,Transportation,USA,https://layoffs.fyi
+Uber_1084,2021-10-08,9626,28,Social Media,USA,https://layoffs.fyi
+MainStreet_1085,2020-08-03,12718,24,Real Estate,USA,https://layoffs.fyi
+MainStreet_1086,2022-11-22,14478,20,Healthcare,USA,https://layoffs.fyi
+Oracle_1087,2020-09-11,700,50,Education,USA,https://layoffs.fyi
+FastAF_1088,2021-08-27,6949,31,Crypto,USA,https://layoffs.fyi
+Klarna_1089,2021-12-18,3566,7,Fintech,USA,https://layoffs.fyi
+Microsoft_1090,2020-10-07,13734,58,SaaS,USA,https://layoffs.fyi
+Bolt_1091,2020-08-12,8864,59,E-commerce,USA,https://layoffs.fyi
+MainStreet_1092,2023-03-30,7385,32,Fintech,USA,https://layoffs.fyi
+Bolt_1093,2022-02-14,2551,26,Crypto,USA,https://layoffs.fyi
+FastAF_1094,2022-05-04,5216,5,Fintech,USA,https://layoffs.fyi
+Coinbase_1095,2023-02-05,13451,22,Transportation,USA,https://layoffs.fyi
+Better.com_1096,2023-04-18,14524,13,Transportation,USA,https://layoffs.fyi
+Cameo_1097,2020-07-22,5367,34,Social Media,USA,https://layoffs.fyi
+FastAF_1098,2021-06-24,5169,45,Social Media,USA,https://layoffs.fyi
+Bolt_1099,2023-06-29,14053,42,E-commerce,USA,https://layoffs.fyi
+Zoom_1100,2022-06-21,2770,13,Crypto,USA,https://layoffs.fyi
+Uber_1101,2022-01-13,6340,51,Healthcare,USA,https://layoffs.fyi
+Microsoft_1102,2022-10-01,7867,60,SaaS,USA,https://layoffs.fyi
+Netflix_1103,2022-10-29,5860,11,SaaS,USA,https://layoffs.fyi
+Salesforce_1104,2023-01-12,3244,60,E-commerce,USA,https://layoffs.fyi
+Peloton_1105,2021-06-06,9416,44,Social Media,USA,https://layoffs.fyi
+OpenSea_1106,2021-12-28,10226,46,Transportation,USA,https://layoffs.fyi
+Oracle_1107,2023-06-07,9028,23,Social Media,USA,https://layoffs.fyi
+Uber_1108,2023-01-14,5974,44,Technology,USA,https://layoffs.fyi
+Zoom_1109,2023-05-23,3831,46,Healthcare,USA,https://layoffs.fyi
+Google_1110,2023-02-16,11299,21,E-commerce,USA,https://layoffs.fyi
+Oracle_1111,2023-07-23,13809,6,E-commerce,USA,https://layoffs.fyi
+Microsoft_1112,2023-04-25,6572,20,Social Media,USA,https://layoffs.fyi
+Google_1113,2021-01-12,1829,55,Education,USA,https://layoffs.fyi
+Netflix_1114,2020-12-20,9912,21,Social Media,USA,https://layoffs.fyi
+Klarna_1115,2020-06-13,14295,13,SaaS,USA,https://layoffs.fyi
+FastAF_1116,2020-04-10,12152,52,Healthcare,USA,https://layoffs.fyi
+Salesforce_1117,2023-09-13,8610,35,SaaS,USA,https://layoffs.fyi
+Microsoft_1118,2020-10-07,3099,54,SaaS,USA,https://layoffs.fyi
+Apple_1119,2022-11-17,8554,36,Fintech,USA,https://layoffs.fyi
+Peloton_1120,2022-03-03,1848,20,Fintech,USA,https://layoffs.fyi
+Salesforce_1121,2021-05-09,13532,42,Technology,USA,https://layoffs.fyi
+Shopify_1122,2020-07-04,9839,59,Social Media,USA,https://layoffs.fyi
+Oracle_1123,2022-12-25,585,25,Social Media,USA,https://layoffs.fyi
+Airbnb_1124,2020-04-19,8143,36,SaaS,USA,https://layoffs.fyi
+Oracle_1125,2023-07-11,6660,57,Transportation,USA,https://layoffs.fyi
+Peloton_1126,2020-05-09,10135,20,Healthcare,USA,https://layoffs.fyi
+Google_1127,2023-05-29,4368,43,Social Media,USA,https://layoffs.fyi
+Airbnb_1128,2021-07-11,12782,20,Social Media,USA,https://layoffs.fyi
+Zoom_1129,2020-02-05,9220,38,Healthcare,USA,https://layoffs.fyi
+MainStreet_1130,2020-12-24,2653,16,Crypto,USA,https://layoffs.fyi
+Bolt_1131,2021-05-22,12468,23,Social Media,USA,https://layoffs.fyi
+Klarna_1132,2022-03-19,14276,33,Healthcare,USA,https://layoffs.fyi
+Google_1133,2021-01-16,1796,27,E-commerce,USA,https://layoffs.fyi
+OpenSea_1134,2023-09-20,2241,57,Transportation,USA,https://layoffs.fyi
+Zoom_1135,2023-01-13,2120,60,Transportation,USA,https://layoffs.fyi
+Oracle_1136,2020-02-21,11882,21,SaaS,USA,https://layoffs.fyi
+MainStreet_1137,2020-10-23,4939,21,Social Media,USA,https://layoffs.fyi
+Oracle_1138,2022-11-04,438,23,Real Estate,USA,https://layoffs.fyi
+Uber_1139,2020-05-08,4140,11,Fintech,USA,https://layoffs.fyi
+Google_1140,2022-10-10,1116,6,Healthcare,USA,https://layoffs.fyi
+Bolt_1141,2022-07-04,8132,19,Social Media,USA,https://layoffs.fyi
+MainStreet_1142,2020-01-03,7959,31,Transportation,USA,https://layoffs.fyi
+Coinbase_1143,2020-08-09,2868,50,Fintech,USA,https://layoffs.fyi
+MainStreet_1144,2021-12-20,9351,53,Real Estate,USA,https://layoffs.fyi
+Zoom_1145,2021-03-26,3953,44,Real Estate,USA,https://layoffs.fyi
+Peloton_1146,2023-01-31,8284,30,Crypto,USA,https://layoffs.fyi
+FastAF_1147,2023-03-10,8712,15,SaaS,USA,https://layoffs.fyi
+Zoom_1148,2022-01-31,9576,51,Healthcare,USA,https://layoffs.fyi
+Bolt_1149,2023-08-30,9656,53,E-commerce,USA,https://layoffs.fyi
+Klarna_1150,2021-09-18,5016,49,Social Media,USA,https://layoffs.fyi
+Coinbase_1151,2023-01-13,2790,48,Technology,USA,https://layoffs.fyi
+Microsoft_1152,2022-11-12,5110,38,Transportation,USA,https://layoffs.fyi
+Bolt_1153,2023-03-12,11824,59,SaaS,USA,https://layoffs.fyi
+Microsoft_1154,2021-09-11,14144,15,Education,USA,https://layoffs.fyi
+Zoom_1155,2022-09-26,13359,21,Transportation,USA,https://layoffs.fyi
+Cameo_1156,2022-02-25,1116,53,Transportation,USA,https://layoffs.fyi
+OpenSea_1157,2022-06-16,2107,15,Healthcare,USA,https://layoffs.fyi
+Oracle_1158,2021-04-04,10031,4,Education,USA,https://layoffs.fyi
+Netflix_1159,2021-09-20,3066,52,Real Estate,USA,https://layoffs.fyi
+Coinbase_1160,2021-01-22,8294,24,E-commerce,USA,https://layoffs.fyi
+Better.com_1161,2023-01-01,1638,42,SaaS,USA,https://layoffs.fyi
+Shopify_1162,2023-07-03,6507,54,Technology,USA,https://layoffs.fyi
+Coinbase_1163,2023-03-26,7956,56,Real Estate,USA,https://layoffs.fyi
+MainStreet_1164,2022-09-28,5289,17,Transportation,USA,https://layoffs.fyi
+Google_1165,2021-05-17,9749,11,Real Estate,USA,https://layoffs.fyi
+Airbnb_1166,2022-02-10,11087,12,Transportation,USA,https://layoffs.fyi
+Airbnb_1167,2023-08-04,5374,28,Education,USA,https://layoffs.fyi
+Robinhood_1168,2020-08-30,3781,46,E-commerce,USA,https://layoffs.fyi
+Google_1169,2022-11-17,11878,8,Technology,USA,https://layoffs.fyi
+Microsoft_1170,2022-02-20,10892,13,Social Media,USA,https://layoffs.fyi
+Better.com_1171,2020-03-25,9129,46,Technology,USA,https://layoffs.fyi
+Uber_1172,2020-11-22,14309,49,Education,USA,https://layoffs.fyi
+Cameo_1173,2021-07-22,13506,57,Crypto,USA,https://layoffs.fyi
+MainStreet_1174,2020-03-21,4259,33,Transportation,USA,https://layoffs.fyi
+Peloton_1175,2022-06-09,10051,49,E-commerce,USA,https://layoffs.fyi
+Airbnb_1176,2022-03-29,743,60,Real Estate,USA,https://layoffs.fyi
+Netflix_1177,2023-03-02,14981,32,Real Estate,USA,https://layoffs.fyi
+Robinhood_1178,2020-03-27,13754,15,Real Estate,USA,https://layoffs.fyi
+MainStreet_1179,2020-02-06,7295,22,Transportation,USA,https://layoffs.fyi
+OpenSea_1180,2023-07-25,8199,4,Crypto,USA,https://layoffs.fyi
+Uber_1181,2023-07-19,11919,33,Crypto,USA,https://layoffs.fyi
+Robinhood_1182,2020-02-27,6984,23,Technology,USA,https://layoffs.fyi
+Google_1183,2023-05-04,3315,53,Crypto,USA,https://layoffs.fyi
+Bolt_1184,2021-03-25,11052,52,Healthcare,USA,https://layoffs.fyi
+Netflix_1185,2021-10-11,13412,54,Transportation,USA,https://layoffs.fyi
+Google_1186,2020-10-16,3285,16,Fintech,USA,https://layoffs.fyi
+MainStreet_1187,2022-09-06,1171,22,Social Media,USA,https://layoffs.fyi
+Cameo_1188,2023-10-17,4991,47,Social Media,USA,https://layoffs.fyi
+Zoom_1189,2022-04-11,1745,45,E-commerce,USA,https://layoffs.fyi
+Robinhood_1190,2022-01-10,4698,32,Transportation,USA,https://layoffs.fyi
+Better.com_1191,2023-05-28,5792,41,SaaS,USA,https://layoffs.fyi
+Airbnb_1192,2023-01-24,9868,45,Social Media,USA,https://layoffs.fyi
+Better.com_1193,2021-07-05,11181,15,Fintech,USA,https://layoffs.fyi
+MainStreet_1194,2021-04-13,620,14,Real Estate,USA,https://layoffs.fyi
+Zoom_1195,2021-12-03,2439,56,Healthcare,USA,https://layoffs.fyi
+Bolt_1196,2020-11-07,1808,28,Real Estate,USA,https://layoffs.fyi
+Cameo_1197,2023-03-07,3733,8,Fintech,USA,https://layoffs.fyi
+Netflix_1198,2023-03-07,14861,49,Transportation,USA,https://layoffs.fyi
+Bolt_1199,2020-08-17,7310,12,Transportation,USA,https://layoffs.fyi

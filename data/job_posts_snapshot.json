@@ -1,0 +1,21 @@
+{
+  "snapshot_date": "2026-04-01",
+  "note": "Replace with real snapshot from program seed repo",
+  "companies": [
+    {
+      "name": "Example Corp",
+      "open_roles": 12,
+      "engineering_roles": 5
+    },
+    {
+      "name": "Acme Tech",
+      "open_roles": 8,
+      "engineering_roles": 3
+    },
+    {
+      "name": "Beta Systems",
+      "open_roles": 20,
+      "engineering_roles": 10
+    }
+  ]
+}
