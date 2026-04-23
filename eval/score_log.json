@@ -25,5 +25,69 @@
     "model": "openrouter/qwen/qwen3-32b",
     "pass_at_1": 0.3333,
     "cost_usd": null
+  },
+  {
+    "run_id": "run_004",
+    "timestamp": "2026-04-22T13:14:11.924829Z",
+    "model": "openrouter/qwen/qwen3-32b",
+    "tasks_run": 1,
+    "trials": 1,
+    "pass_at_1": 0.0,
+    "ci_95_low": 0.0,
+    "ci_95_high": 0.7935,
+    "cost_usd": 0.0,
+    "p50_latency_ms": 111476,
+    "p95_latency_ms": 111476,
+    "trace_ids": [
+      "9163d6b90c384bb591c5e0022cb7a3af"
+    ]
+  },
+  {
+    "run_id": "run_005",
+    "timestamp": "2026-04-22T13:22:48.387293+00:00",
+    "model": "openrouter/qwen/qwen3-32b",
+    "tasks_run": 1,
+    "trials": 1,
+    "pass_at_1": 0.0,
+    "ci_95_low": 0.0,
+    "ci_95_high": 0.7935,
+    "cost_usd": 0.0,
+    "p50_latency_ms": 144826,
+    "p95_latency_ms": 144826,
+    "trace_ids": [
+      "2469b12feb684e0ab1a71968508824a4"
+    ]
+  },
+  {
+    "run_id": "run_006",
+    "timestamp": "2026-04-22T17:49:28.786083+00:00",
+    "model": "openrouter/qwen/qwen3-32b",
+    "tasks_run": 1,
+    "trials": 1,
+    "pass_at_1": 0.0,
+    "ci_95_low": 0.0,
+    "ci_95_high": 0.7935,
+    "cost_usd": 0.0,
+    "p50_latency_ms": 77524,
+    "p95_latency_ms": 77524,
+    "trace_ids": [
+      "47d869f7eca44a909904d4bd0d0bf7b2"
+    ]
+  },
+  {
+    "run_id": "run_007",
+    "timestamp": "2026-04-22T17:53:53.388184+00:00",
+    "model": "openrouter/qwen/qwen3-32b",
+    "tasks_run": 1,
+    "trials": 1,
+    "pass_at_1": 1.0,
+    "ci_95_low": 0.2065,
+    "ci_95_high": 1.0,
+    "cost_usd": 0.0,
+    "p50_latency_ms": 109351,
+    "p95_latency_ms": 109351,
+    "trace_ids": [
+      "7ef0f2edf18a435096b81416d05ff9d4"
+    ]
   }
 ]
