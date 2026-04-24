@@ -1,0 +1,15 @@
+
+{"timestamp": "2026-04-24T18:58:59Z", "recipient": "+251911704273", "message": "Warm lead SMS test", "sent_or_simulated": "refused", "delivery_status": "refused", "message_id": null, "refused": "cold contact"}
+{"timestamp": "2026-04-24T18:58:59Z", "recipient": "+251911704273", "message": "Should be blocked after STOP", "sent_or_simulated": "refused", "delivery_status": "refused", "message_id": null, "refused": "cold contact"}
+{"timestamp": "2026-04-24T18:59:00Z", "recipient": "+251900000000", "message": "Cold SMS test", "sent_or_simulated": "refused", "delivery_status": "refused", "message_id": null, "refused": "cold contact"}
+{"timestamp": "2026-04-24T18:59:30Z", "recipient": "+251900000000", "message": "Cold SMS test", "sent_or_simulated": "refused", "delivery_status": "refused", "message_id": null, "refused": "cold contact"}
+{"timestamp": "2026-04-24T18:59:30Z", "recipient": "+251911704273", "message": "Warm lead SMS test", "sent_or_simulated": "refused", "delivery_status": "refused", "message_id": null, "refused": "opted out"}
+{"timestamp": "2026-04-24T18:59:32Z", "recipient": "+251911704273", "message": "Should still be blocked after STOP", "sent_or_simulated": "refused", "delivery_status": "refused", "message_id": null, "refused": "opted out"}
+{"timestamp": "2026-04-24T18:59:44Z", "recipient": "+251922222222", "message": "Tenacious SMS support: reply STOP or UNSUB to opt out. Reply EMAIL for email-only follow-up.", "sent_or_simulated": "simulated", "delivery_status": "simulated", "message_id": "help-+251922222222"}
+{"timestamp": "2026-04-24T19:00:00Z", "recipient": "+251922222222", "message": "HELP", "sent_or_simulated": "received", "delivery_status": "received", "message_id": null}
+{"timestamp": "2026-04-24T19:04:03Z", "recipient": "+251911704273", "message": "Should still be blocked after STOP", "sent_or_simulated": "refused", "delivery_status": "refused", "message_id": null, "refused": "opted out"}
+{"timestamp": "2026-04-24T19:08:41Z", "recipient": "+251911704273", "message": "Should still be blocked after STOP", "sent_or_simulated": "refused", "delivery_status": "refused", "message_id": null, "refused": "opted out"}
+{"timestamp": "2026-04-24T19:09:48Z", "recipient": "+251711704273", "message": "Warm lead SMS test", "sent_or_simulated": "refused", "delivery_status": "refused", "message_id": null, "refused": "cold contact"}
+{"timestamp": "2026-04-24T19:16:26Z", "recipient": "+251911704273", "message": "Warm lead SMS test", "sent_or_simulated": "refused", "delivery_status": "refused", "message_id": null, "refused": "opted out"}
+{"timestamp": "2026-04-24T19:25:24Z", "recipient": "+251711704273", "message": "Tenacious SMS support: reply STOP or UNSUB to opt out. Reply EMAIL for email-only follow-up.", "sent_or_simulated": "simulated", "delivery_status": "simulated", "message_id": "help-+251711704273"}
+{"timestamp": "2026-04-24T19:20:00Z", "recipient": "+251711704273", "message": "HELP", "sent_or_simulated": "received", "delivery_status": "received", "message_id": null}
