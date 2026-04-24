@@ -1,0 +1,12 @@
+Hi {company_team},
+
+I saw {company_name} has gone through a recent workforce change.
+{funding_tension_line}
+{job_signal_line}
+
+Teams in that position are usually balancing cost pressure with delivery continuity, which is where process cleanup and focused outsourcing can help.
+
+Would a short conversation on where that pressure is showing up be useful?
+
+Best,
+Tenacious Consulting

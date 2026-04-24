@@ -1,0 +1,12 @@
+Hi {company_team},
+
+I noticed {company_name} raised {funding_amount} in a {funding_round} {funding_days_ago} days ago.
+{job_signal_line}
+{competitor_line}
+
+At Tenacious, we usually help teams in that window turn growing delivery pressure into cleaner execution across sourcing, capacity, and handoff.
+
+Would it be useful to compare how you are handling the next stage of growth right now?
+
+Best,
+Tenacious Consulting

@@ -1,0 +1,12 @@
+Hi {company_team},
+
+From the public signals we reviewed, {company_name} appears to be investing meaningfully in AI capability.
+{ai_signal_line}
+{competitor_line}
+
+Tenacious usually helps teams like that close execution gaps between strategy, platform work, and delivery capacity.
+
+Would it be useful to compare where AI roadmap ambition is getting slowed down operationally?
+
+Best,
+Tenacious Consulting

@@ -1,0 +1,12 @@
+Hi {company_team},
+
+I noticed a recent leadership change on the engineering side at {company_name}.
+{leadership_line}
+{job_signal_line}
+
+That kind of transition often triggers a review of delivery workflow, vendor mix, and engineering throughput assumptions.
+
+Would it be helpful to compare what is working well and what is creating drag today?
+
+Best,
+Tenacious Consulting

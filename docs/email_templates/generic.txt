@@ -1,0 +1,11 @@
+Hi {company_team},
+
+I spent a little time looking at {company_name} and wanted to reach out with a simple question.
+{generic_context_line}
+
+At Tenacious, we help teams improve execution capacity across engineering-adjacent delivery, especially when internal bandwidth is uneven.
+
+Would it be useful to compare where delivery load is hardest to absorb right now?
+
+Best,
+Tenacious Consulting
