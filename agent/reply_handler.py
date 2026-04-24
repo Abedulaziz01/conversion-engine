@@ -16,6 +16,7 @@ from agent.qualifier import qualify_reply
 
 
 EMAIL_LOG_PATH = ROOT / "agent" / "email_log.jsonl"
+BRIEF_PATH = ROOT / "enrichment" / "output" / "hiring_signal_brief.json"
 
 
 def utc_now() -> str:
@@ -58,6 +59,10 @@ def process_reply(payload: dict[str, Any]) -> dict[str, Any]:
     original = find_original_outbound(str(original_message_id))
     trace_id = original.get("trace_id") if original else None
 
+    hiring_signal_brief = None
+    if BRIEF_PATH.exists():
+        hiring_signal_brief = json.loads(BRIEF_PATH.read_text(encoding="utf-8"))
+
     reply_entry = {
         "event_type": "inbound_email_reply",
         "timestamp": timestamp,
@@ -68,13 +73,19 @@ def process_reply(payload: dict[str, Any]) -> dict[str, Any]:
     }
     append_log(reply_entry)
 
-    qualification = qualify_reply(reply_entry)
+    qualification = qualify_reply(
+        reply_entry,
+        hiring_signal_brief,
+        sender_email=sender_email,
+        trace_id=trace_id,
+    )
     qualification_entry = {
         "event_type": "qualification_result",
         "timestamp": utc_now(),
         "sender_email": sender_email,
         "trace_id": trace_id,
-        "qualification_status": qualification.get("qualification_status"),
+        "qualification_status": qualification.get("route"),
+        "qualification_detail": qualification,
     }
     append_log(qualification_entry)
 
