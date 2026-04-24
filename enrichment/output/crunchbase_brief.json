@@ -1,0 +1,17 @@
+{
+  "found": true,
+  "company": "Consolety",
+  "employee_count": 5,
+  "industry": "SEO",
+  "city": "Amsterdam",
+  "country": "The Netherlands",
+  "total_funding_usd": null,
+  "last_funding_date": null,
+  "funding_rounds": null,
+  "founders": [],
+  "website": "https://consolety.net",
+  "description": "Consolety SEO - The number one SEO wordpress plugin and Application to build authority, backlinks & generate traffic!\n\nHow it Works?\n\nConsolety works by taking the data from your submitted site and match it with others in the network. Our technical algorithm bases a match on tags, categories & content. This means that you will always receive relative backlinks that have the same reputation.",
+  "crunchbase_id": "consolety",
+  "match_score": 0.96,
+  "last_enriched_at": "2026-04-24T08:33:47Z"
+}
