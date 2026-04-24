@@ -1,0 +1,25 @@
+{
+  "target_company": "Wiring Technologies",
+  "sector": "Telecommunications",
+  "size_band": "51-100 employees",
+  "target_ai_maturity": 0,
+  "competitors_scored": [
+    {
+      "name": "Conseil Telecom",
+      "ai_maturity": 0,
+      "employee_count": 75
+    },
+    {
+      "name": "Soluvis",
+      "ai_maturity": 0,
+      "employee_count": 75
+    },
+    {
+      "name": "Wiring Technologies",
+      "ai_maturity": 0,
+      "employee_count": 75
+    }
+  ],
+  "target_percentile": "bottom quartile",
+  "gaps": []
+}
