@@ -1,0 +1,115 @@
+{
+  "company": "Wiring Technologies",
+  "crunchbase_id": "wiring-technologies",
+  "enriched_at": "2026-04-24T12:59:05Z",
+  "firmographics": {
+    "found": true,
+    "company": "Wiring Technologies",
+    "employee_count": 75,
+    "industry": "Telecommunications",
+    "city": "Altamonte Springs",
+    "country": "United States",
+    "total_funding_usd": null,
+    "last_funding_date": null,
+    "funding_rounds": null,
+    "founders": [],
+    "website": "https://wiringtech.com/",
+    "description": "Wiring Technologies committed to providing Total Connectivity Solutions through a complete line of Fiber, Data, Voice and Video cabling.",
+    "crunchbase_id": "wiring-technologies",
+    "match_score": 1.0,
+    "last_enriched_at": "2026-04-24T12:59:05Z"
+  },
+  "funding_event": null,
+  "layoff_event": null,
+  "job_posts": {
+    "scraping_blocked": true,
+    "company_domain": "wiringtech.com",
+    "robots_respected": true,
+    "reason": "robots.txt blocked"
+  },
+  "leadership_change": null,
+  "ai_maturity": {
+    "company": "Wiring Technologies",
+    "ai_maturity_score": 0,
+    "confidence": "low",
+    "total_contribution": 0.0,
+    "signals": {
+      "ai_roles": {
+        "found": false,
+        "detail": "Robots.txt blocked scraping for wiringtech.com",
+        "contribution": 0.0,
+        "weight": "high"
+      },
+      "ml_leadership": {
+        "found": false,
+        "detail": "No named AI/ML leader found in available Crunchbase people data",
+        "contribution": 0.0,
+        "weight": "high"
+      },
+      "github_activity": {
+        "found": false,
+        "detail": "No GitHub organization URL found in Crunchbase social links",
+        "contribution": 0.0,
+        "weight": "medium"
+      },
+      "exec_commentary": {
+        "found": false,
+        "detail": "No executive AI commentary found in Crunchbase descriptions or press mentions",
+        "contribution": 0.0,
+        "weight": "medium"
+      },
+      "ml_stack": {
+        "found": false,
+        "detail": "No modern ML stack tools detected in BuiltWith data",
+        "contribution": 0.0,
+        "weight": "low"
+      },
+      "strategic_comms": {
+        "found": false,
+        "detail": "No AI messaging found in fundraising or strategic communications",
+        "contribution": 0.0,
+        "weight": "low"
+      }
+    }
+  },
+  "competitor_gap": {
+    "target_company": "Wiring Technologies",
+    "sector": "Telecommunications",
+    "size_band": "51-100 employees",
+    "target_ai_maturity": 0,
+    "competitors_scored": [
+      {
+        "name": "Conseil Telecom",
+        "ai_maturity": 0,
+        "employee_count": 75
+      },
+      {
+        "name": "Soluvis",
+        "ai_maturity": 0,
+        "employee_count": 75
+      },
+      {
+        "name": "Wiring Technologies",
+        "ai_maturity": 0,
+        "employee_count": 75
+      }
+    ],
+    "target_percentile": "bottom quartile",
+    "gaps": []
+  },
+  "icp_segments": [],
+  "bench_match": {
+    "matched": false,
+    "needed_skills": [
+      "Python x4",
+      "Data Platform x3",
+      "API Integration x3",
+      "CRM Workflow x2",
+      "Scheduling Automation x2",
+      "AI/ML x2",
+      "Observability x2"
+    ],
+    "available_skills": [],
+    "confidence": "low"
+  }
+}
