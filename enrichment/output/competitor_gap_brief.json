@@ -1,23 +1,63 @@
 {
-  "target_company": "Wiring Technologies",
-  "sector": "Telecommunications",
-  "size_band": "51-100 employees",
+  "target_company": "World of Wanderlust",
+  "sector": "Blogging Platforms, Content Creators",
+  "size_band": "1-10 employees",
   "target_ai_maturity": 0,
   "competitors_scored": [
     {
-      "name": "Conseil Telecom",
+      "name": "Touritz",
       "ai_maturity": 0,
-      "employee_count": 75
+      "employee_count": 5
     },
     {
-      "name": "Soluvis",
+      "name": "When In Rome Tours",
       "ai_maturity": 0,
-      "employee_count": 75
+      "employee_count": 5
     },
     {
-      "name": "Wiring Technologies",
+      "name": "True Nature Sweden",
       "ai_maturity": 0,
-      "employee_count": 75
+      "employee_count": 5
+    },
+    {
+      "name": "Hiveworks Comics",
+      "ai_maturity": 0,
+      "employee_count": 5
+    },
+    {
+      "name": "FoxMind",
+      "ai_maturity": 0,
+      "employee_count": 5
+    },
+    {
+      "name": "Attentioneers Agency",
+      "ai_maturity": 0,
+      "employee_count": 5
+    },
+    {
+      "name": "Catholic Travel Today",
+      "ai_maturity": 0,
+      "employee_count": 5
+    },
+    {
+      "name": "Silverstar Holdings",
+      "ai_maturity": 0,
+      "employee_count": 5
+    },
+    {
+      "name": "TripKick",
+      "ai_maturity": 0,
+      "employee_count": 5
+    },
+    {
+      "name": "Comeat",
+      "ai_maturity": 0,
+      "employee_count": 5
+    },
+    {
+      "name": "World of Wanderlust",
+      "ai_maturity": 0,
+      "employee_count": 5
     }
   ],
   "target_percentile": "bottom quartile",
