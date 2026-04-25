@@ -1,2 +1,6 @@
 langfuse>=3,<4
 playwright>=1.52,<2
+python-dotenv>=1,<2
+requests>=2.32,<3
+flask>=3,<4
+streamlit>=1.44,<2

@@ -162,7 +162,21 @@ def build_master_brief(company_name: str) -> tuple[dict[str, Any], float]:
 
     company_domain = extract_domain(firmographics.get("website"))
     if company_domain:
-        job_posts = asyncio.run(job_scraper.scrape_jobs(company_domain))
+        try:
+            job_posts = asyncio.run(job_scraper.scrape_jobs(company_domain))
+        except Exception as exc:
+            job_posts = {
+                "company_domain": company_domain,
+                "roles_now": 0,
+                "roles_60d_ago": 0,
+                "change_pct": None,
+                "engineering_roles_now": 0,
+                "role_titles": [],
+                "scrape_timestamp": None,
+                "robots_respected": True,
+                "reason": "job_scraper_failed",
+                "error": str(exc),
+            }
     else:
         job_posts = {
             "company_domain": None,

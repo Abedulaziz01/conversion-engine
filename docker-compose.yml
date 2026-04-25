@@ -1,0 +1,53 @@
+services:
+  calcom:
+    image: calcom/cal.com:latest
+    container_name: calcom
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    ports:
+      - "3000:3000"
+    environment:
+      DATABASE_URL: ${CALCOM_DATABASE_URL}
+      DATABASE_DIRECT_URL: ${CALCOM_DATABASE_DIRECT_URL}
+      REDIS_URL: ${CALCOM_REDIS_URL}
+      NEXTAUTH_SECRET: ${CALCOM_NEXTAUTH_SECRET}
+      CALENDSO_ENCRYPTION_KEY: ${CALCOM_ENCRYPTION_KEY}
+      NEXT_PUBLIC_WEBAPP_URL: ${CALCOM_WEBAPP_URL}
+      NEXTAUTH_URL: ${CALCOM_NEXTAUTH_URL}
+      WEBAPP_URL: ${CALCOM_WEBAPP_URL}
+      NODE_ENV: production
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:15-alpine
+    container_name: calcom-postgres
+    environment:
+      POSTGRES_USER: ${CALCOM_POSTGRES_USER}
+      POSTGRES_PASSWORD: ${CALCOM_POSTGRES_PASSWORD}
+      POSTGRES_DB: ${CALCOM_POSTGRES_DB}
+    ports:
+      - "5432:5432"
+    volumes:
+      - calcom_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${CALCOM_POSTGRES_USER} -d ${CALCOM_POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    container_name: calcom-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - calcom_redis_data:/data
+    restart: unless-stopped
+
+volumes:
+  calcom_postgres_data:
+  calcom_redis_data:
