@@ -1,28 +1,17 @@
 {
-  "company": "Jogg AI",
-  "crunchbase_id": "jogg-ai",
-  "enriched_at": "2026-04-25T18:36:48Z",
+  "company": "CoorB",
+  "crunchbase_id": "coorb",
+  "enriched_at": "2026-04-25T00:00:00Z",
   "firmographics": {
-    "found": true,
-    "company": "Jogg AI",
-    "employee_count": 75,
-    "industry": "Software",
-    "city": "null",
-    "country": "null",
-    "total_funding_usd": null,
-    "last_funding_date": null,
-    "funding_rounds": null,
-    "founders": [],
-    "website": "https://www.jogg.ai/",
-    "description": "Jogg AI is an AI video platform that converts URLs into video ads in minutes using rich templates and AI avatars. Effortlessly drive more traffic to your website and boost sales.",
-    "crunchbase_id": "jogg-ai",
-    "match_score": 1.0,
-    "last_enriched_at": "2026-04-25T18:36:48Z"
+    "company": "CoorB",
+    "website": "https://coorb.io",
+    "crunchbase_id": "coorb",
+    "last_enriched_at": "2026-04-25T00:00:00Z"
   },
   "funding_event": null,
   "layoff_event": null,
   "job_posts": {
-    "company_domain": "www.jogg.ai",
+    "company_domain": "coorb.io",
     "roles_now": 0,
     "roles_60d_ago": 0,
     "change_pct": null,
@@ -31,96 +20,15 @@
     "scrape_timestamp": null,
     "robots_respected": true,
     "reason": "job_scraper_failed",
-    "error": ""
+    "error": "playwright unavailable"
   },
   "leadership_change": null,
   "ai_maturity": {
-    "company": "Jogg AI",
-    "ai_maturity_score": 0,
-    "confidence": "medium",
-    "total_contribution": 0.25,
-    "signals": {
-      "ai_roles": {
-        "found": false,
-        "detail": "Job scraper unavailable: ",
-        "contribution": 0.0,
-        "weight": "high"
-      },
-      "ml_leadership": {
-        "found": false,
-        "detail": "No named AI/ML leader found in available Crunchbase people data",
-        "contribution": 0.0,
-        "weight": "high"
-      },
-      "github_activity": {
-        "found": false,
-        "detail": "No GitHub organization URL found in Crunchbase social links",
-        "contribution": 0.0,
-        "weight": "medium"
-      },
-      "exec_commentary": {
-        "found": false,
-        "detail": "No executive AI commentary found in Crunchbase descriptions or press mentions",
-        "contribution": 0.0,
-        "weight": "medium"
-      },
-      "ml_stack": {
-        "found": false,
-        "detail": "No modern ML stack tools detected in BuiltWith data",
-        "contribution": 0.0,
-        "weight": "low"
-      },
-      "strategic_comms": {
-        "found": true,
-        "detail": "AI language appears in fundraising or company communications via 'ai'",
-        "contribution": 0.25,
-        "weight": "low"
-      }
-    }
+    "ai_maturity_score": 1,
+    "signals": {}
   },
   "competitor_gap": {
-    "target_company": "Jogg AI",
-    "sector": "Software",
-    "size_band": "51-100 employees",
-    "target_ai_maturity": 0,
-    "competitors_scored": [
-      {
-        "name": "Whitehill Technologies",
-        "ai_maturity": 0,
-        "employee_count": 75
-      },
-      {
-        "name": "Systems and Electronic Development FZCO (SEDCO)",
-        "ai_maturity": 0,
-        "employee_count": 75
-      },
-      {
-        "name": "e-Boekhouden",
-        "ai_maturity": 0,
-        "employee_count": 75
-      },
-      {
-        "name": "CreditNirvana",
-        "ai_maturity": 0,
-        "employee_count": 75
-      },
-      {
-        "name": "CMIT",
-        "ai_maturity": 0,
-        "employee_count": 75
-      },
-      {
-        "name": "Cycle Solutions",
-        "ai_maturity": 0,
-        "employee_count": 75
-      },
-      {
-        "name": "Jogg AI",
-        "ai_maturity": 0,
-        "employee_count": 75
-      }
-    ],
-    "target_percentile": "bottom quartile",
+    "target_company": "CoorB",
     "gaps": []
   },
   "icp_segments": [],
