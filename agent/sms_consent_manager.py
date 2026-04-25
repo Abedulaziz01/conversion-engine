@@ -9,6 +9,7 @@ from pathlib import Path
 from typing import Any
 
 import requests
+from agent.state_manager import record_contact_event
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -97,6 +98,15 @@ def handle_consent_command(phone_number: str, command: str) -> dict[str, Any]:
             "future_sms_refused": True,
         }
         append_jsonl(SMS_CONSENT_LOG_PATH, entry)
+        entry["state_sync"] = record_contact_event(
+            "sms_opt_out",
+            phone_number=normalized_phone,
+            trace_id=f"sms-{normalized_phone}",
+            channel="sms",
+            details=entry,
+            hubspot_status="SMS Opted Out",
+            stop_automation=True,
+        )
         return entry
 
     if normalized_command == "HELP":
@@ -110,6 +120,15 @@ def handle_consent_command(phone_number: str, command: str) -> dict[str, Any]:
             "help_reply": help_log,
         }
         append_jsonl(SMS_CONSENT_LOG_PATH, entry)
+        entry["state_sync"] = record_contact_event(
+            "sms_help_requested",
+            phone_number=normalized_phone,
+            trace_id=f"sms-{normalized_phone}",
+            channel="sms",
+            details=entry,
+            hubspot_status="SMS Help Requested",
+            stop_automation=False,
+        )
         return entry
 
     raise ValueError("Command must be STOP, HELP, or UNSUB")

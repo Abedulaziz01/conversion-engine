@@ -1,5 +1,18 @@
 from __future__ import annotations
 
+"""Build a lightweight competitor-gap brief.
+
+The output JSON uses a stable schema:
+- target_company: normalized company name used in the brief
+- sector: first one or two Crunchbase industries for quick context
+- size_band: employee-range label derived from Crunchbase size data
+- target_ai_maturity: 0-3 AI maturity score for the target
+- competitors_scored: peer list with name, AI maturity, and employee count
+- target_percentile: relative standing against peers
+- gaps: up to three evidence-backed adoption gaps to reference in outreach
+- reason: optional explanation when the target cannot be scored normally
+"""
+
 import importlib.util
 import json
 import math

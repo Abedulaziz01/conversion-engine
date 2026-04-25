@@ -13,6 +13,7 @@ if str(ROOT) not in sys.path:
 
 
 HANDOFF_LOG_PATH = ROOT / "agent" / "handoff_log.jsonl"
+from agent.state_manager import record_handoff
 
 
 def utc_now() -> str:
@@ -32,6 +33,13 @@ def handoff_to_human(
     trace_id: str | None = None,
     company: str | None = None,
 ) -> dict[str, Any]:
+    state_entry = record_handoff(
+        reason,
+        sender_email=sender_email,
+        trace_id=trace_id,
+        company=company,
+        channel="shared",
+    )
     entry = {
         "timestamp": utc_now(),
         "reason": reason,
@@ -41,6 +49,7 @@ def handoff_to_human(
         "hubspot_activity_timeline": "logged_for_human_follow_up",
         "hubspot_contact_status": "Needs Human Review",
         "automated_follow_up_stopped": True,
+        "state_sync": state_entry,
     }
     append_handoff_log(entry)
     return entry

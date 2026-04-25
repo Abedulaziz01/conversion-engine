@@ -84,6 +84,11 @@ def extract_domain(website: str | None) -> str | None:
 
 
 def score_to_int(total: float) -> int:
+    # Bands map weighted evidence into the 0-3 brief score used downstream:
+    # 0 = no credible AI adoption signal
+    # 1 = isolated or weak AI evidence worth monitoring
+    # 2 = multiple AI signals that justify AI-oriented outreach
+    # 3 = strong AI maturity where AI capacity is likely strategic
     if total < 0.75:
         return 0
     if total < 1.75:

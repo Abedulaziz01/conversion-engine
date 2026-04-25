@@ -9,6 +9,7 @@ from pathlib import Path
 from typing import Any
 
 import requests
+from agent.state_manager import has_recent_event_for_email, record_contact_event
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -104,15 +105,11 @@ def resolve_email_for_phone(phone_number: str) -> str | None:
     return None
 
 
-def has_replied_by_email(phone_number: str) -> bool:
+def has_qualifying_email_reply(phone_number: str) -> bool:
     email = resolve_email_for_phone(phone_number)
     if not email:
         return False
-    target = email.lower()
-    for row in load_email_log():
-        if row.get("event_type") == "inbound_email_reply" and str(row.get("sender_email") or "").lower() == target:
-            return True
-    return False
+    return has_recent_event_for_email(email, "email_reply_qualified", lookback_days=30)
 
 
 def is_opted_out(phone_number: str) -> bool:
@@ -171,7 +168,7 @@ def send_sms(phone_number: str, message_text: str) -> dict[str, Any]:
     elif is_opted_out(normalized_phone):
         refused = "opted out"
         delivery_status = "refused"
-    elif not has_replied_by_email(normalized_phone):
+    elif not has_qualifying_email_reply(normalized_phone):
         refused = "cold contact"
         delivery_status = "refused"
     else:
@@ -196,6 +193,16 @@ def send_sms(phone_number: str, message_text: str) -> dict[str, Any]:
         log_entry["refused"] = refused
 
     append_sms_log(log_entry)
+    log_entry["state_sync"] = record_contact_event(
+        "outbound_sms_sent" if refused is None else "outbound_sms_refused",
+        sender_email=resolve_email_for_phone(normalized_phone),
+        phone_number=normalized_phone,
+        trace_id=f"sms-{normalized_phone}",
+        channel="sms",
+        details=log_entry,
+        hubspot_status="IN_PROGRESS" if refused is None else "SMS Opted Out" if refused == "opted out" else None,
+        stop_automation=True if refused == "opted out" else None,
+    )
     return log_entry
 
 

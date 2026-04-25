@@ -6,7 +6,6 @@ import sys
 from datetime import UTC, datetime
 from pathlib import Path
 
-import requests
 from dotenv import load_dotenv
 from flask import Flask, jsonify, request
 
@@ -16,13 +15,13 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from agent.email_sender import send_email
+from agent.state_manager import record_contact_event
 
 
 load_dotenv()
 
 app = Flask(__name__)
 
-HUBSPOT_TOKEN = os.getenv("HUBSPOT_ACCESS_TOKEN")
 BOOKING_LOG = ROOT / "calendar" / "booking_log.jsonl"
 
 
@@ -63,7 +62,16 @@ def booking_confirmed():
     }
     append_log(log_entry)
 
-    hubspot_result = update_hubspot(email, name, booked_time)
+    hubspot_result = record_contact_event(
+        "booking_confirmed",
+        sender_email=email,
+        trace_id=f"booking-{email.replace('@', '-at-').replace('.', '-')}",
+        company=name,
+        channel="calendar",
+        details=log_entry,
+        hubspot_status="IN_PROGRESS",
+        lifecycle_stage="opportunity",
+    )
     notification_result = notify_delivery_lead(name, email, booked_time)
 
     return jsonify(
@@ -74,78 +82,6 @@ def booking_confirmed():
             "delivery_lead": notification_result,
         }
     ), 200
-
-
-def update_hubspot(email: str, name: str, booked_time: str) -> dict:
-    """Update HubSpot contact to Meeting Scheduled stage."""
-
-    if not HUBSPOT_TOKEN:
-        return {
-            "mode": "simulated",
-            "reason": "HUBSPOT_ACCESS_TOKEN not configured",
-            "email": email,
-        }
-
-    headers = {
-        "Authorization": f"Bearer {HUBSPOT_TOKEN}",
-        "Content-Type": "application/json",
-    }
-
-    search_url = "https://api.hubapi.com/crm/v3/objects/contacts/search"
-    search_body = {
-        "filterGroups": [{
-            "filters": [{
-                "propertyName": "email",
-                "operator": "EQ",
-                "value": email,
-            }]
-        }]
-    }
-
-    search_resp = requests.post(search_url, headers=headers, json=search_body, timeout=30)
-    if search_resp.status_code != 200:
-        return {"mode": "failed", "reason": f"HubSpot search failed: {search_resp.text}"}
-
-    results = search_resp.json().get("results", [])
-    if not results:
-        return {"mode": "simulated", "reason": "No HubSpot contact found", "email": email}
-
-    contact_id = results[0]["id"]
-
-    update_url = f"https://api.hubapi.com/crm/v3/objects/contacts/{contact_id}"
-    update_body = {
-        "properties": {
-            "lifecyclestage": "opportunity",
-            "hs_lead_status": "IN_PROGRESS",
-        }
-    }
-    update_resp = requests.patch(update_url, headers=headers, json=update_body, timeout=30)
-
-    note_url = "https://api.hubapi.com/crm/v3/objects/notes"
-    note_body = {
-        "properties": {
-            "hs_note_body": f"Discovery call booked for {booked_time}",
-            "hs_timestamp": str(int(datetime.now(UTC).timestamp() * 1000)),
-        }
-    }
-    note_resp = requests.post(note_url, headers=headers, json=note_body, timeout=30)
-
-    note_status = "not_created"
-    if note_resp.status_code == 201:
-        note_id = note_resp.json()["id"]
-        assoc_url = (
-            f"https://api.hubapi.com/crm/v3/objects/notes/{note_id}"
-            f"/associations/contacts/{contact_id}/note_to_contact"
-        )
-        requests.put(assoc_url, headers=headers, timeout=30)
-        note_status = "created"
-
-    return {
-        "mode": "live",
-        "contact_id": contact_id,
-        "contact_updated": update_resp.status_code == 200,
-        "note_status": note_status,
-    }
 
 
 def notify_delivery_lead(name: str, email: str, booked_time: str) -> dict:

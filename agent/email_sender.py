@@ -17,6 +17,7 @@ if str(ROOT) not in sys.path:
 
 from agent.email_composer import compose_email, load_json
 from agent.icp_classifier import classify_brief
+from agent.state_manager import record_contact_event
 
 
 ENV_PATH = ROOT / ".env"
@@ -125,6 +126,15 @@ def deliver_email(
         "company": composed_email.get("company"),
     }
     append_log(log_entry)
+    log_entry["state_sync"] = record_contact_event(
+        "outbound_email_sent",
+        sender_email=recipient,
+        trace_id=trace_id,
+        company=composed_email.get("company"),
+        channel="email",
+        details=log_entry,
+        hubspot_status="IN_PROGRESS",
+    )
     return log_entry
 
 
@@ -165,6 +175,15 @@ def send_email(
         "company": company,
     }
     append_log(log_entry)
+    log_entry["state_sync"] = record_contact_event(
+        "outbound_email_sent",
+        sender_email=to,
+        trace_id=trace_id,
+        company=company,
+        channel="email",
+        details=log_entry,
+        hubspot_status="IN_PROGRESS",
+    )
     return log_entry
 
 

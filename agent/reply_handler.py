@@ -13,6 +13,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from agent.qualifier import qualify_reply
+from agent.state_manager import record_contact_event
 
 
 EMAIL_LOG_PATH = ROOT / "agent" / "email_log.jsonl"
@@ -72,6 +73,15 @@ def process_reply(payload: dict[str, Any]) -> dict[str, Any]:
         "trace_id": trace_id,
     }
     append_log(reply_entry)
+    reply_entry["state_sync"] = record_contact_event(
+        "inbound_email_reply",
+        sender_email=sender_email,
+        trace_id=trace_id,
+        company=(hiring_signal_brief or {}).get("company") if isinstance(hiring_signal_brief, dict) else None,
+        channel="email",
+        details=reply_entry,
+        hubspot_status="IN_PROGRESS",
+    )
 
     qualification = qualify_reply(
         reply_entry,
@@ -88,11 +98,25 @@ def process_reply(payload: dict[str, Any]) -> dict[str, Any]:
         "qualification_detail": qualification,
     }
     append_log(qualification_entry)
+    qualification_entry["state_sync"] = record_contact_event(
+        "email_reply_qualified" if qualification.get("route") == "automated_qualification" else "email_reply_routed_to_handoff",
+        sender_email=sender_email,
+        trace_id=trace_id,
+        company=(hiring_signal_brief or {}).get("company") if isinstance(hiring_signal_brief, dict) else None,
+        channel="email",
+        details=qualification_entry,
+        hubspot_status="IN_PROGRESS" if qualification.get("route") == "automated_qualification" else "Needs Human Review",
+        stop_automation=False if qualification.get("route") == "automated_qualification" else True,
+    )
 
     return {
         "reply_logged": True,
         "trace_id": trace_id,
         "qualification": qualification,
+        "state_sync": {
+            "reply": reply_entry.get("state_sync"),
+            "qualification": qualification_entry.get("state_sync"),
+        },
     }
 
 

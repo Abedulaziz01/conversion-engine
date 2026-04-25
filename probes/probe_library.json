@@ -1,0 +1,306 @@
+{
+  "version": "2026-04-25",
+  "owner": "Tenacious conversion-engine",
+  "categories": [
+    {
+      "id": "grounding",
+      "name": "Evidence Grounding",
+      "probes": [
+        {
+          "id": "GR-01",
+          "category": "grounding",
+          "setup": "Company has no funding event, but prompt wording suggests recent growth.",
+          "expected_failure": "Invented funding claim appears in outreach.",
+          "trigger_rate": 0.18,
+          "business_cost_frame": "A fabricated growth claim risks turning a 7-12% signal-grounded reply opportunity back into a 1-3% cold-baseline outcome."
+        },
+        {
+          "id": "GR-02",
+          "category": "grounding",
+          "setup": "Competitor gap brief contains only medium-confidence evidence.",
+          "expected_failure": "Email states the gap as fact instead of hypothesis.",
+          "trigger_rate": 0.16,
+          "business_cost_frame": "Overclaiming burns trust and wastes scarce thoughtful touches from the ~60-touch weekly SDR budget."
+        },
+        {
+          "id": "GR-03",
+          "category": "grounding",
+          "setup": "Job scraper fails and returns no evidence.",
+          "expected_failure": "System treats zero scraped roles as proof of no hiring.",
+          "trigger_rate": 0.21,
+          "business_cost_frame": "False negatives suppress higher-value outreach and increase time spent replacing missed prospects with more outbound volume."
+        }
+      ]
+    },
+    {
+      "id": "enrichment",
+      "name": "Enrichment Coverage",
+      "probes": [
+        {
+          "id": "EN-01",
+          "category": "enrichment",
+          "setup": "robots.txt allows bot-specific fetch but blocks wildcard fetch.",
+          "expected_failure": "Scraper runs despite mixed robots permissions.",
+          "trigger_rate": 0.11,
+          "business_cost_frame": "Ignoring site policy creates avoidable compliance and reputational risk for a workflow meant to be evidence-grounded."
+        },
+        {
+          "id": "EN-02",
+          "category": "enrichment",
+          "setup": "Sparse company has one role today and no snapshot baseline.",
+          "expected_failure": "Change percentage is misreported instead of null.",
+          "trigger_rate": 0.27,
+          "business_cost_frame": "A fake growth percentage can misroute a low-signal prospect into a high-effort segment."
+        },
+        {
+          "id": "EN-03",
+          "category": "enrichment",
+          "setup": "Company missing from Crunchbase sample.",
+          "expected_failure": "Brief lacks structured fallbacks and crashes downstream logic.",
+          "trigger_rate": 0.19,
+          "business_cost_frame": "Missing fallbacks force manual cleanup and reduce the number of prospects an SDR can safely process each week."
+        }
+      ]
+    },
+    {
+      "id": "segmentation",
+      "name": "ICP Segmentation",
+      "probes": [
+        {
+          "id": "SE-01",
+          "category": "segmentation",
+          "setup": "Funding and leadership signals are both present.",
+          "expected_failure": "Only one segment survives and the other trigger is discarded.",
+          "trigger_rate": 0.14,
+          "business_cost_frame": "Losing segment context narrows discovery questions and lowers the chance of moving a reply into the 30-50% discovery-to-proposal band."
+        },
+        {
+          "id": "SE-02",
+          "category": "segmentation",
+          "setup": "Employee count is unknown for a layoff-positive company.",
+          "expected_failure": "Segment 2 is assigned without the size guardrail.",
+          "trigger_rate": 0.1,
+          "business_cost_frame": "Misclassification causes wrong messaging and can turn a warm reply into human-cleanup work."
+        },
+        {
+          "id": "SE-03",
+          "category": "segmentation",
+          "setup": "AI maturity score is 1 with strong generic tech language.",
+          "expected_failure": "Segment 4 is assigned too aggressively.",
+          "trigger_rate": 0.17,
+          "business_cost_frame": "Over-targeting specialized capability pitches wastes scarce high-context outreach capacity."
+        }
+      ]
+    },
+    {
+      "id": "email_personalization",
+      "name": "Email Personalization",
+      "probes": [
+        {
+          "id": "EP-01",
+          "category": "email_personalization",
+          "setup": "Brief has only low-confidence signals.",
+          "expected_failure": "Composer still emits a highly specific personalization hook.",
+          "trigger_rate": 0.22,
+          "business_cost_frame": "Bad personalization makes replies look spam-like and pushes performance toward the 1-3% baseline."
+        },
+        {
+          "id": "EP-02",
+          "category": "email_personalization",
+          "setup": "Competitor gap evidence exists but is medium confidence.",
+          "expected_failure": "Gap is used in the first sentence instead of as a question.",
+          "trigger_rate": 0.15,
+          "business_cost_frame": "This increases rebuttals and manual handling instead of improving discovery conversion."
+        },
+        {
+          "id": "EP-03",
+          "category": "email_personalization",
+          "setup": "Company has no public website field.",
+          "expected_failure": "Composer leaks placeholders or empty snippets into the email.",
+          "trigger_rate": 0.12,
+          "business_cost_frame": "Broken copy consumes touches that should have been spent on viable prospects from the weekly SDR budget."
+        }
+      ]
+    },
+    {
+      "id": "reply_intent",
+      "name": "Reply Intent Detection",
+      "probes": [
+        {
+          "id": "RI-01",
+          "category": "reply_intent",
+          "setup": "Prospect says 'interesting, not now, maybe next quarter'.",
+          "expected_failure": "Reply is labeled interested instead of neutral.",
+          "trigger_rate": 0.24,
+          "business_cost_frame": "Premature follow-up burns touches that could have gone to other prospects and may annoy a valid future lead."
+        },
+        {
+          "id": "RI-02",
+          "category": "reply_intent",
+          "setup": "Prospect says 'remove me from your list immediately'.",
+          "expected_failure": "System continues automation instead of routing to handoff/stop.",
+          "trigger_rate": 0.07,
+          "business_cost_frame": "Continuing automation after a hostile reply creates outsized brand and compliance risk."
+        },
+        {
+          "id": "RI-03",
+          "category": "reply_intent",
+          "setup": "Prospect asks an ambiguous pricing question mixed with interest.",
+          "expected_failure": "Bot answers pricing instead of routing to human review.",
+          "trigger_rate": 0.13,
+          "business_cost_frame": "A bad pricing answer can waste one of the few replies generated from a signal-grounded campaign."
+        }
+      ]
+    },
+    {
+      "id": "qualification_capacity",
+      "name": "Qualification and Capacity",
+      "probes": [
+        {
+          "id": "QC-01",
+          "category": "qualification_capacity",
+          "setup": "Prospect asks for 8 Go engineers when bench shows only 2.",
+          "expected_failure": "Agent confirms unavailable capacity.",
+          "trigger_rate": 0.09,
+          "business_cost_frame": "Over-promising damages credibility and delays deployment against the 7-14 day time-to-deploy expectation."
+        },
+        {
+          "id": "QC-02",
+          "category": "qualification_capacity",
+          "setup": "Segment 1 prospect mentions Python but not team size.",
+          "expected_failure": "Only one qualifying question is asked.",
+          "trigger_rate": 0.18,
+          "business_cost_frame": "Missing team-size context lowers the odds of converting discovery into a scoped proposal."
+        },
+        {
+          "id": "QC-03",
+          "category": "qualification_capacity",
+          "setup": "Bench file is missing a requested technology.",
+          "expected_failure": "Agent guesses availability instead of handing off.",
+          "trigger_rate": 0.14,
+          "business_cost_frame": "Guessing on staffing supply creates avoidable handoff churn and proposal rework."
+        }
+      ]
+    },
+    {
+      "id": "sms_consent",
+      "name": "SMS Consent and Warm-Lead Gating",
+      "probes": [
+        {
+          "id": "SC-01",
+          "category": "sms_consent",
+          "setup": "Phone is mapped to a contact with no qualified email reply.",
+          "expected_failure": "Cold SMS is allowed.",
+          "trigger_rate": 0.2,
+          "business_cost_frame": "If one premature SMS loses a warm prospect, replacing that response likely costs roughly 8-15 grounded touches or 33-100 cold touches."
+        },
+        {
+          "id": "SC-02",
+          "category": "sms_consent",
+          "setup": "Phone sends STOP and then another outbound send is attempted.",
+          "expected_failure": "Future SMS is not blocked immediately.",
+          "trigger_rate": 0.08,
+          "business_cost_frame": "Ignoring opt-out has compliance cost far larger than any single-touch upside."
+        },
+        {
+          "id": "SC-03",
+          "category": "sms_consent",
+          "setup": "Message is 185 characters long.",
+          "expected_failure": "Long SMS is still sent.",
+          "trigger_rate": 0.17,
+          "business_cost_frame": "Oversized operational messages create noisy customer experience and reduce confidence in the scheduling channel."
+        }
+      ]
+    },
+    {
+      "id": "crm_state",
+      "name": "CRM State and Timeline Sync",
+      "probes": [
+        {
+          "id": "CS-01",
+          "category": "crm_state",
+          "setup": "Outbound email send succeeds but HubSpot write fails.",
+          "expected_failure": "System silently drops the CRM event.",
+          "trigger_rate": 0.23,
+          "business_cost_frame": "Invisible state breaks handoff and makes later manual recovery slower for a small sales team."
+        },
+        {
+          "id": "CS-02",
+          "category": "crm_state",
+          "setup": "Reply qualifies to automation path.",
+          "expected_failure": "Contact status is not updated to reflect in-progress conversation.",
+          "trigger_rate": 0.16,
+          "business_cost_frame": "Missing CRM state raises the chance of duplicate touches and wasted SDR output."
+        },
+        {
+          "id": "CS-03",
+          "category": "crm_state",
+          "setup": "Human handoff fires from any channel.",
+          "expected_failure": "Timeline note and stop-automation marker are inconsistent.",
+          "trigger_rate": 0.12,
+          "business_cost_frame": "A missed stop flag can create repeated outreach after handoff, compounding brand damage."
+        }
+      ]
+    },
+    {
+      "id": "booking_handoff",
+      "name": "Booking and Human Handoff",
+      "probes": [
+        {
+          "id": "BH-01",
+          "category": "booking_handoff",
+          "setup": "Booking webhook arrives with attendee email but missing notes.",
+          "expected_failure": "Handler crashes instead of logging and updating CRM.",
+          "trigger_rate": 0.11,
+          "business_cost_frame": "Dropped bookings directly reduce the pool that can move into the 30-50% discovery-to-proposal stage."
+        },
+        {
+          "id": "BH-02",
+          "category": "booking_handoff",
+          "setup": "Prospect asks enterprise pricing in email and then books a call.",
+          "expected_failure": "No human-handoff context survives into booking notification.",
+          "trigger_rate": 0.09,
+          "business_cost_frame": "The delivery lead loses context and spends more of the call on reconstruction instead of qualification."
+        },
+        {
+          "id": "BH-03",
+          "category": "booking_handoff",
+          "setup": "Cal.com is offline and link generator falls back to static slug.",
+          "expected_failure": "Failure is invisible to the operator.",
+          "trigger_rate": 0.19,
+          "business_cost_frame": "Invisible booking degradation wastes warm demand that already made it through reply and qualification."
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "name": "Observability and Recovery",
+      "probes": [
+        {
+          "id": "OR-01",
+          "category": "observability",
+          "setup": "Same contact flows through email, SMS, and booking.",
+          "expected_failure": "Trace IDs are not preserved across channels.",
+          "trigger_rate": 0.2,
+          "business_cost_frame": "Without trace continuity, debugging one lost opportunity can consume more time than several thoughtful touches."
+        },
+        {
+          "id": "OR-02",
+          "category": "observability",
+          "setup": "External API call fails in simulated mode.",
+          "expected_failure": "System raises raw exception with no structured error entry.",
+          "trigger_rate": 0.15,
+          "business_cost_frame": "Poor operator visibility slows recovery and reduces weekly prospect throughput."
+        },
+        {
+          "id": "OR-03",
+          "category": "observability",
+          "setup": "A downstream consumer reads a low-confidence brief.",
+          "expected_failure": "Consumer treats missing evidence as negative evidence.",
+          "trigger_rate": 0.22,
+          "business_cost_frame": "Misreading low-confidence briefs suppresses good leads and increases replacement touches."
+        }
+      ]
+    }
+  ]
+}
