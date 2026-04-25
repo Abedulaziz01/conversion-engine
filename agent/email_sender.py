@@ -128,6 +128,46 @@ def deliver_email(
     return log_entry
 
 
+def send_email(
+    *,
+    to: str,
+    subject: str,
+    body: str,
+    trace_id: str,
+    company: str | None = None,
+    variant_tag: str = "generic",
+) -> dict[str, Any]:
+    load_env_file(ENV_PATH)
+    composed = {
+        "company": company,
+        "segment": None,
+        "variant": variant_tag,
+        "email_text": body,
+    }
+    live_outbound = normalize_bool(os.getenv("LIVE_OUTBOUND"))
+    if live_outbound:
+        message_id = send_via_resend(to, subject, body)
+        sent_or_simulated = "sent"
+    else:
+        message_id = f"simulated-{trace_id}"
+        sent_or_simulated = "simulated"
+
+    log_entry = {
+        "event_type": "outbound_email",
+        "timestamp": utc_now(),
+        "recipient": to,
+        "subject": subject,
+        "variant_tag": variant_tag,
+        "trace_id": trace_id,
+        "sent_or_simulated": sent_or_simulated,
+        "message_id": message_id,
+        "segment": None,
+        "company": company,
+    }
+    append_log(log_entry)
+    return log_entry
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Send or simulate an outbound email")
     parser.add_argument("--company", required=True, help="Company name for the current brief")
