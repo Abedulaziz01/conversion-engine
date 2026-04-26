@@ -58,18 +58,18 @@ This repo demonstrates an auditable outbound engine that:
 
 ## Top-Level Folders
 
-| Folder | Purpose |
-|---|---|
-| `agent/` | messaging, qualification, SMS gating, handoff, state logging |
-| `calendar/` | Cal.com link generation, booking webhook handling, booking logs |
-| `crm/` | HubSpot contact and timeline write helpers |
-| `data/` | local challenge datasets and snapshots |
-| `docs/` | seed material, schemas, setup notes, failure-mode docs |
-| `enrichment/` | master brief assembler and signal extractors |
-| `eval/` | evaluation logs, score summaries, and run artifacts |
-| `observability/` | reserved for future dashboards and monitoring assets |
-| `probes/` | structured adversarial probe library and taxonomy |
-| `tests/` | unit tests for qualification, gating, and enrichment edge cases |
+| Folder           | Purpose                                                         |
+| ---------------- | --------------------------------------------------------------- |
+| `agent/`         | messaging, qualification, SMS gating, handoff, state logging    |
+| `calendar/`      | Cal.com link generation, booking webhook handling, booking logs |
+| `crm/`           | HubSpot contact and timeline write helpers                      |
+| `data/`          | local challenge datasets and snapshots                          |
+| `docs/`          | seed material, schemas, setup notes, failure-mode docs          |
+| `enrichment/`    | master brief assembler and signal extractors                    |
+| `eval/`          | evaluation logs, score summaries, and run artifacts             |
+| `observability/` | reserved for future dashboards and monitoring assets            |
+| `probes/`        | structured adversarial probe library and taxonomy               |
+| `tests/`         | unit tests for qualification, gating, and enrichment edge cases |
 
 ## Tested Prerequisites
 
@@ -108,26 +108,26 @@ Fill in the values you actually plan to use.
 
 ## Environment Variables
 
-| Variable | Required | Purpose |
-|---|---|---|
-| `LIVE_OUTBOUND` | yes | `false` keeps email/SMS sends simulated |
-| `RESEND_API_KEY` | email live only | outbound email API |
-| `RESEND_FROM_EMAIL` | email live only | sender address |
-| `RESEND_TEST_TO_EMAIL` | recommended | local testing recipient |
-| `TEST_EMAIL_TO` | recommended | shared local fallback recipient |
-| `HUBSPOT_ACCESS_TOKEN` | CRM live only | HubSpot private app token |
-| `AFRICASTALKING_USERNAME` | SMS live only | Africa's Talking username |
-| `AFRICASTALKING_API_KEY` | SMS live only | Africa's Talking API key |
-| `AFRICASTALKING_BASE_URL` | SMS live only | sandbox/live base URL |
-| `AFRICASTALKING_SHORTCODE` | optional | sender shortcode |
-| `AFRICASTALKING_TEST_TO` | recommended | local SMS test recipient |
-| `TEST_PHONE_TO` | recommended | shared phone fallback |
-| `CALCOM_API_KEY` | booking link live only | Cal.com API access |
-| `CALCOM_BASE_URL` | yes for booking | booking host |
-| `CALCOM_BOOKING_USERNAME` | fallback okay | booking path user |
-| `CALCOM_EVENT_TYPE_SLUG` | fallback okay | booking path event slug |
-| `TENACIOUS_DELIVERY_LEAD_EMAIL` | booking/email alerts | internal notification recipient |
-| `CALCOM_POSTGRES_*` / `CALCOM_DATABASE_*` / `CALCOM_REDIS_URL` / `CALCOM_NEXTAUTH_*` / `CALCOM_ENCRYPTION_KEY` | Docker Cal.com only | local Cal.com stack |
+| Variable                                                                                                       | Required               | Purpose                                 |
+| -------------------------------------------------------------------------------------------------------------- | ---------------------- | --------------------------------------- |
+| `LIVE_OUTBOUND`                                                                                                | yes                    | `false` keeps email/SMS sends simulated |
+| `RESEND_API_KEY`                                                                                               | email live only        | outbound email API                      |
+| `RESEND_FROM_EMAIL`                                                                                            | email live only        | sender address                          |
+| `RESEND_TEST_TO_EMAIL`                                                                                         | recommended            | local testing recipient                 |
+| `TEST_EMAIL_TO`                                                                                                | recommended            | shared local fallback recipient         |
+| `HUBSPOT_ACCESS_TOKEN`                                                                                         | CRM live only          | HubSpot private app token               |
+| `AFRICASTALKING_USERNAME`                                                                                      | SMS live only          | Africa's Talking username               |
+| `AFRICASTALKING_API_KEY`                                                                                       | SMS live only          | Africa's Talking API key                |
+| `AFRICASTALKING_BASE_URL`                                                                                      | SMS live only          | sandbox/live base URL                   |
+| `AFRICASTALKING_SHORTCODE`                                                                                     | optional               | sender shortcode                        |
+| `AFRICASTALKING_TEST_TO`                                                                                       | recommended            | local SMS test recipient                |
+| `TEST_PHONE_TO`                                                                                                | recommended            | shared phone fallback                   |
+| `CALCOM_API_KEY`                                                                                               | booking link live only | Cal.com API access                      |
+| `CALCOM_BASE_URL`                                                                                              | yes for booking        | booking host                            |
+| `CALCOM_BOOKING_USERNAME`                                                                                      | fallback okay          | booking path user                       |
+| `CALCOM_EVENT_TYPE_SLUG`                                                                                       | fallback okay          | booking path event slug                 |
+| `TENACIOUS_DELIVERY_LEAD_EMAIL`                                                                                | booking/email alerts   | internal notification recipient         |
+| `CALCOM_POSTGRES_*` / `CALCOM_DATABASE_*` / `CALCOM_REDIS_URL` / `CALCOM_NEXTAUTH_*` / `CALCOM_ENCRYPTION_KEY` | Docker Cal.com only    | local Cal.com stack                     |
 
 ## Run Order
 
@@ -244,7 +244,7 @@ OK
 
 ## Failure Behavior
 
-See:
+See::
 
 - [docs/enrichment_failure_modes.md](/c:/Users/user/desktop/mll/week10/conversion-engine/docs/enrichment_failure_modes.md)
 - [docs/ai_maturity_scoring.md](/c:/Users/user/desktop/mll/week10/conversion-engine/docs/ai_maturity_scoring.md)
