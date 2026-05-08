@@ -256,12 +256,13 @@ See::
 - Resend outbound email is supported, but free-tier inbound reply webhook parity depends on provider capabilities.
 - Real Cal.com end-to-end booking requires a working Cal.com instance plus a public webhook endpoint.
 - HubSpot writes simulate cleanly when no token is configured, but that is not a substitute for production validation.
+- A production LLM reply path still needs a durable queue, bounded concurrency, retry-with-jitter, and circuit-breaker handling so bursty inbound traffic does not silently drop replies when an upstream model provider rate-limits or degrades.
 - The local data sample is intentionally incomplete, so some companies will fall back to generic outreach.
 
 ## Next Steps
 
 - move state and logging from JSONL files into a proper datastore
 - add stronger end-to-end tests around HubSpot and Cal.com integrations
-- harden retry/backoff behavior for external APIs
+- harden the future LLM reply path with provider-aware backpressure: queue inbound replies, cap in-flight completions, honor `Retry-After` on `429`, and degrade to deferred/manual review instead of dropping work on repeated `5xx` failures
 - add dashboards in `observability/` for funnel stage counts and failure alerts
 - evaluate probe-library failures continuously against held-out traces

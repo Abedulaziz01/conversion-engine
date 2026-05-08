@@ -1,0 +1,5 @@
+# Sign-off
+
+**Status:** closed
+
+Before this explainer, I could say that my conversion engine depended on an upstream LLM call, but I could not explain what should happen when the provider pushed back under bursty load. I was treating all failures as "the API failed" instead of distinguishing between a `429` rate-limit response, which is a signal to slow down and retry later, and a `5xx` upstream-health failure, which deserves only a short retry budget before the system opens a circuit breaker and degrades visibly. I now understand that graceful degradation in this setting is not a `try/except` around `requests.post()`. It is a production pattern: durable queue, bounded concurrency, status-aware retries, jitter, breaker logic, and a deferred or manual-review path so a prospect reply remains a tracked unit of work even when the model call cannot complete immediately. That changes how I evaluate the Week 10 system: the gap was not just missing retries, but missing ownership of backpressure at the application boundary.
